@@ -1,0 +1,48 @@
+Destinos Posibles en el juego
+
+America
+
+1.  Buenos Aires, Argentina
+2.  Santiago de Chile, Chile
+3.  Lima, Peru
+4.  Montevideo, Uruguay
+5.  Asunción, Paraguay
+6.  La Paz, Bolivia (Me parece mas interesante que Santa Cruz)
+7.  Quito, Ecuador
+8.  Bogota, Colombia
+9.  Caracas, Venezuela
+10. Rio de janeiro, Brasil (Brasilia es muy poco importante, San Pablo podria ir)
+11. Mexico DF, Mexico
+12. New York, USA (lo mismo con Brasil, Washington no es una ciudad tan reconocida)
+13. Toronto, Canada (u Otawa o Montreal, acá la verdad que no tiene mucha diferencia para mi)
+
+Egipto
+
+14. El cairo, Egipto
+15. Nairobi, Kenia
+16. Dar-Es-Salaam, Tanzania
+17. Casablanca, Marruecos
+
+Europa
+
+18. Madrid, España (Barcelona puede ser)
+19. Paris, Francia
+20. Berlin, Alemania
+21. Londres, Inglaterra
+22. Roma, Italia
+23. Atenas, Grecia
+24. Moscu, Rusia
+
+Asia
+
+25. Beijing, China
+26. Tokio, Japon
+27. Bangkok, Tailandia
+28. Nueva Delhi, India
+29. Bagdag, Irak
+
+Oceania
+
+30. Sidney, Australia
+31. Port Moresby, Papua Nueva Guinea
+
