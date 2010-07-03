@@ -1,13 +1,13 @@
-Destinos Posibles en el juego
+Destinos Posibles en el juego con posibles "tesoros" a ser robados..
+*Formato: Cuidad/Estado, País || Tesoro1 (Localizacion), Tesoro2 (Localizacion), Etc..
 
 America
-
-1.  Buenos Aires, Argentina
-2.  Santiago de Chile, Chile
-3.  Lima, Peru
-4.  Montevideo, Uruguay
-5.  Asunción, Paraguay
-6.  La Paz, Bolivia (Me parece mas interesante que Santa Cruz)
+1.  Buenos Aires, Argentina  ||  Femme Allongée de Picasso (Museo Nacional de Bellas Artes), Bastón Presidencial (Museo de la Casa Rosada)
+2.  Santiago de Chile, Chile  || Moneda del Aniversario" (Casa de la Moneda), Primer Constitucion Nacional (Museo del Palacio Presidencial)
+3.  Lima, Peru ||  Corona del Rey Inca (Museo Historico de Lima), Acrilico Historico de Van Gogh (Museo Nacional de Lima)
+4.  Montevideo, Uruguay || Totem Sagrado Indigena (Museo de Arte Precolombino Indigena), Cinta Presidencial (Palacio Legislativo)
+5.  Asunción, Paraguay || Caacupe de Andrés Campos Cervera (Museo Nacional de Bellas Artes)
+6.  La Paz, Bolivia || Guernica de Picasso (Museo de La Paz de Gernika)
 7.  Quito, Ecuador
 8.  Bogota, Colombia
 9.  Caracas, Venezuela
@@ -17,24 +17,21 @@ America
 13. Toronto, Canada (u Otawa o Montreal, acá la verdad que no tiene mucha diferencia para mi)
 
 Africa
-
 14. El cairo, Egipto
 15. Nairobi, Kenia
 16. Dar-Es-Salaam, Tanzania
 17. Casablanca, Marruecos
 
 Europa
-
 18. Madrid, España (Barcelona puede ser)
 19. Paris, Francia
 20. Berlin, Alemania
-21. Londres, Inglaterra
+21. Londres, Inglaterra || Llaves de la Torre de Londres (Torre de Londres)
 22. Roma, Italia
 23. Atenas, Grecia
 24. Moscu, Rusia
 
 Asia
-
 25. Beijing, China
 26. Tokio, Japon
 27. Bangkok, Tailandia
@@ -42,7 +39,6 @@ Asia
 29. Bagdag, Irak
 
 Oceania
-
 30. Sidney, Australia
 31. Port Moresby, Papua Nueva Guinea
 
