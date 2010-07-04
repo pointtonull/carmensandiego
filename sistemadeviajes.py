@@ -10,14 +10,14 @@ from time import sleep
 ciudades = {
     ('Buenos Aires', 'Santiago de Chile'): 1139, 
     ('Santiago de Chile','Nueva York'): 8206,
-    ('Nueva York', 'Buenos Aires'): 8491
-         }
+    ('Nueva York', 'Buenos Aires'): 8491,
+}
           
 
 def viajar(origen, destino):
-    print 'Viajando desde %s' %(origen,)
+    print("Viajando desde %s" % origen)
     kilometros = distancia(origen, destino)
-    horas = kilometros / 600
+    horas = round(kilometros / 600.)
     sleep(1)
     if kilometros != -1:
         for i in xrange(kilometros):
@@ -27,6 +27,7 @@ def viajar(origen, destino):
     else:
         print 'No hay una conexion entre esas dos ciudades'
 
+
 def distancia(origen, destino):
     try:
         return ciudades[(origen, destino)]
@@ -34,7 +35,7 @@ def distancia(origen, destino):
         try:
             return ciudades[(destino, origen)]
         except KeyError:
-            return -1
+            return 0
 
 opciones = {
     '1': 'Buenos Aires',
