@@ -1,4 +1,4 @@
-.. figure:: http://img30.imageshack.us/img30/6255/testingj.png
+.. figure:: http://github.com/pointtonull/carmensandiego/raw/master/sombrero_carmen.png
    :align: right
 
 Description
