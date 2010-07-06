@@ -48,6 +48,9 @@ class Async:
         func.start()
         return func
 
+    def __repr__(self):
+        return self.func.func_name
+
 
 class TimeoutExc(Exception):
     def __init__(self, value="Timed Out"):
