@@ -9,3 +9,19 @@ ciudades = {
     ('Santiago de Chile', 'Tokio'): 17227,
     ('Nueva York', 'Tokio'): 10858
          }
+opciones = {
+    '1': 'Buenos Aires',
+    '2': 'Santiago de Chile',
+    '3': 'Nueva York',
+    '4': 'Tokio'
+    }
+
+def menu_ciudades():
+    print u"""
+    Ciudades
+    
+        [1] : Buenos Aires
+        [2] : Santiago de Chile
+        [3] : Nueva York
+        [4] : Tokio 
+    """

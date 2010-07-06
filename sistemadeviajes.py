@@ -6,7 +6,7 @@
 
 from os import system
 from time import sleep
-from ciudades import ciudades 
+from ciudades import ciudades, menu_ciudades, opciones 
 
 
 def viajar(origen, destino):
@@ -37,24 +37,7 @@ def distancia(origen, destino):
         except KeyError:
             return -1
 
-opciones = {
-    '1': 'Buenos Aires',
-    '2': 'Santiago de Chile',
-    '3': 'Nueva York',
-    '4': 'Tokio'
-    }
-
 def menu():
-    print u"""
-    Ciudades
-    
-        [1] : Buenos Aires
-        [2] : Santiago de Chile
-        [3] : Nueva York
-        [4] : Tokio 
-    """
-
-def menu2():
     print u"""
     Menu
     
@@ -70,7 +53,7 @@ def elegir_viaje():
 
 def ver_conexiones():
     system('clear')
-    menu()
+    menu_ciudades()
     opcion = raw_input('Elija una ciudad para ver sus conexiones : ')
     
     try:
@@ -91,7 +74,7 @@ funciones = {
     
 def elegir_origen_y_destino(opcion = 0):
     def elige_origen():
-        menu()
+        menu_ciudades()
         o = raw_input('Elige origen : ')
         while not o:
             print 'no ingreso un valor'
@@ -103,7 +86,7 @@ def elegir_origen_y_destino(opcion = 0):
         return origen 
             
     def elige_destino():
-        menu()
+        menu_ciudades()
         d = raw_input('Elige destino : ')
         while not d:
             print 'no ingreso un valor'
@@ -125,7 +108,7 @@ def elegir_origen_y_destino(opcion = 0):
 
 def main():
     system('clear')
-    menu2()
+    menu()
     opcion = raw_input('Elige opcion : ')
     while opcion != '3':
         try:
@@ -134,7 +117,7 @@ def main():
         except KeyError:
             print 'Opción fuera de rango'
     
-        menu2()
+        menu()
         opcion = raw_input('Ingrese opcion: ')         
         
     
