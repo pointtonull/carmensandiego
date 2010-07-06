@@ -6,7 +6,7 @@
 
 from os import system
 from time import sleep
-from ciudades import ciudades, menu_ciudades, opciones 
+from ciudades import ciudades, menu_ciudades, opciones, origen_y_destino 
 
 
 def viajar(origen, destino):
@@ -53,7 +53,7 @@ def menu():
 
 def elegir_viaje():
     system('clear')
-    origen, destino = elegir_origen_y_destino()
+    origen, destino = origen_y_destino()
     viajar(origen, destino)
 
 def ver_conexiones():
@@ -79,44 +79,7 @@ funciones = {
     '3': quit 
     }    
     
-def elegir_origen_y_destino(opcion = 0):
-    ''' funcion para elegir ciudades de destino y origen de un menu, si
-    se pasa como parametro un 1, retorna solo el origen, si se le pasa un 2
-    retorna el destino y sin parametros devuelve una tupla (origen, destino)
-    '''
-   
-    def elige_origen():
-        menu_ciudades()
-        o = raw_input('Elige origen : ')
-        while not o:
-            print 'no ingreso un valor'
-            o = raw_input('Elige origen : ')
-        try:
-            origen = opciones[o]
-            return origen
-        except KeyError:
-            print 'Opcion incorrecta'
-         
-            
-    def elige_destino():
-        menu_ciudades()
-        d = raw_input('Elige destino : ')
-        while not d:
-            print 'no ingreso un valor'
-            d = raw_input('Elige destino : ')
-        try:
-            destino = opciones[d]
-            return destino
-        except KeyError:
-            print 'Opcion incorrecta'
-        
-        
-    if opcion == 1:
-        elige_origen()
-    elif opcion == 2:
-        elige_destino()
-    else:
-        return (elige_origen(), elige_destino())
+
         
     
 
