@@ -10,10 +10,12 @@ from ciudades import ciudades, menu_ciudades, opciones
 
 
 def viajar(origen, destino):
+    '''muestra, si es posible, el viaje entre 2 ciudades 
+    y cuanto dura en horas'''
     if origen != destino:
         kilometros = distancia(origen, destino)
         horas = kilometros / 600
-        sleep(.1)
+        sleep(1)
         if kilometros != -1:
             print 'Viajando desde %s' %(origen,)
             for i in xrange(kilometros/100):
@@ -29,6 +31,8 @@ def viajar(origen, destino):
         
 
 def distancia(origen, destino):
+    '''Averigua la distancia en kilometros, si es que existe una conexion
+    directa, entre dos ciudades'''
     try:
         return ciudades[(origen, destino)]
     except KeyError:
@@ -38,6 +42,7 @@ def distancia(origen, destino):
             return -1
 
 def menu():
+    '''simple menu con las opciones del programa'''
     print u"""
     Menu
     
@@ -52,6 +57,8 @@ def elegir_viaje():
     viajar(origen, destino)
 
 def ver_conexiones():
+    '''dada una ciudad, muestra todas las conexiones directas 
+    con otras ciudades'''
     system('clear')
     menu_ciudades()
     opcion = raw_input('Elija una ciudad para ver sus conexiones : ')
@@ -73,6 +80,11 @@ funciones = {
     }    
     
 def elegir_origen_y_destino(opcion = 0):
+    ''' funcion para elegir ciudades de destino y origen de un menu, si
+    se pasa como parametro un 1, retorna solo el origen, si se le pasa un 2
+    retorna el destino y sin parametros devuelve una tupla (origen, destino)
+    '''
+   
     def elige_origen():
         menu_ciudades()
         o = raw_input('Elige origen : ')
@@ -81,9 +93,10 @@ def elegir_origen_y_destino(opcion = 0):
             o = raw_input('Elige origen : ')
         try:
             origen = opciones[o]
+            return origen
         except KeyError:
             print 'Opcion incorrecta'
-        return origen 
+         
             
     def elige_destino():
         menu_ciudades()
@@ -93,9 +106,10 @@ def elegir_origen_y_destino(opcion = 0):
             d = raw_input('Elige destino : ')
         try:
             destino = opciones[d]
+            return destino
         except KeyError:
             print 'Opcion incorrecta'
-        return destino
+        
         
     if opcion == 1:
         elige_origen()
