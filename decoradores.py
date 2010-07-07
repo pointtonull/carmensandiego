@@ -8,7 +8,7 @@ import signal
 import inspect
 
 try:
-    import multiprocessing
+    from multiprocessing import Queue, Process
     MP = True
 except ImportError:
     MP = False
@@ -51,6 +51,24 @@ class Async:
     def __repr__(self):
         return self.func.func_name
 
+def nothreadsafe(func):
+
+    def container(queue, *args, **kwargs):
+        queue.put(func(*args, **kwargs))
+
+    @wraps(func)
+    def dfunc(*args, **kwargs):
+        queue = Queue()
+
+        proc = Process(None, container, None, (queue,) + args, kwargs)
+
+        proc.start()
+        proc.join()
+        return queue.get()
+
+    return dfunc
+
+
 
 class TimeoutExc(Exception):
     def __init__(self, value="Timed Out"):
@@ -65,8 +83,8 @@ def mptimeout(timeout, func, *args, **kwargs):
     def newfunc(queue, args, kwargs):
         return queue.put(func(*args, **kwargs))
 
-    queue = multiprocessing.Queue()
-    proc = multiprocessing.Process(None, newfunc, newfunc.func_name,
+    queue = Queue()
+    proc = Process(None, newfunc, newfunc.func_name,
         (queue, args, kwargs))
     proc.start()
     proc.join(timeout)

@@ -13,6 +13,13 @@ from cStringIO import StringIO
 
 from urllib2 import URLError
 
+import twill
+from twill.utils import BrowserStateError
+
+tc = twill.commands
+twill.set_output(StringIO())
+twill.commands.config("use_tidy", 0)
+
 TEMPDIR = mkdtemp()
 HOME = os.environ["HOME"]
 CACHE = HOME +  "/.browser_cache"
@@ -50,12 +57,6 @@ class FORM:
 
 
 class BROWSER:
-    import twill
-    from twill.utils import BrowserStateError
-
-    tc = twill.commands
-    twill.set_output(StringIO())
-    twill.commands.config("use_tidy", 0)
 
     def __init__(self, timeout=120):
 
@@ -133,6 +134,8 @@ class BROWSER:
             date = time.time()
             self.htmlCache[url] = date, html
             cPickle.dump(self.htmlCache, open(CACHE, "w"), -1)
+        
+        return html
 
 
 
@@ -151,14 +154,15 @@ class BROWSER:
 
     def get_forms(self, url=None, *args, **kw):
 
-        if url is None: url = self.get_url()
+        if url is None:
+            url = self.get_url()
 
-        f = StringIO()
-        f.writelines(self.get_html(url, *args, **kw))
-        f.seek(0)
-        forms = ClientForm.ParseFile(f, url, backwards_compat=False)
+        fifo = StringIO()
+        fifo.writelines(self.get_html(url, *args, **kw))
+        fifo.seek(0)
+        forms = ClientForm.ParseFile(fifo, url, backwards_compat=False)
 
-        return [FORM(self, f) for f in forms]
+        return [FORM(self, form) for form in forms]
 
     def put_form(self, form=None, *args, **kw):
         if form is None:
