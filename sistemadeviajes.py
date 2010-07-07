@@ -6,14 +6,16 @@
 
 from os import system
 from time import sleep
-from ciudades import ciudades 
+from ciudades import ciudades, menu_ciudades, opciones, origen_y_destino 
 
 
 def viajar(origen, destino):
+    '''muestra, si es posible, el viaje entre 2 ciudades 
+    y cuanto dura en horas'''
     if origen != destino:
         kilometros = distancia(origen, destino)
         horas = kilometros / 600
-        sleep(.1)
+        sleep(1)
         if kilometros != -1:
             print 'Viajando desde %s' %(origen,)
             for i in xrange(kilometros/100):
@@ -29,6 +31,8 @@ def viajar(origen, destino):
         
 
 def distancia(origen, destino):
+    '''Averigua la distancia en kilometros, si es que existe una conexion
+    directa, entre dos ciudades'''
     try:
         return ciudades[(origen, destino)]
     except KeyError:
@@ -37,24 +41,8 @@ def distancia(origen, destino):
         except KeyError:
             return -1
 
-opciones = {
-    '1': 'Buenos Aires',
-    '2': 'Santiago de Chile',
-    '3': 'Nueva York',
-    '4': 'Tokio'
-    }
-
 def menu():
-    print u"""
-    Ciudades
-    
-        [1] : Buenos Aires
-        [2] : Santiago de Chile
-        [3] : Nueva York
-        [4] : Tokio 
-    """
-
-def menu2():
+    '''simple menu con las opciones del programa'''
     print u"""
     Menu
     
@@ -65,12 +53,14 @@ def menu2():
 
 def elegir_viaje():
     system('clear')
-    origen, destino = elegir_origen_y_destino()
+    origen, destino = origen_y_destino()
     viajar(origen, destino)
 
 def ver_conexiones():
+    '''dada una ciudad, muestra todas las conexiones directas 
+    con otras ciudades'''
     system('clear')
-    menu()
+    menu_ciudades()
     opcion = raw_input('Elija una ciudad para ver sus conexiones : ')
     
     try:
@@ -89,43 +79,13 @@ funciones = {
     '3': quit 
     }    
     
-def elegir_origen_y_destino(opcion = 0):
-    def elige_origen():
-        menu()
-        o = raw_input('Elige origen : ')
-        while not o:
-            print 'no ingreso un valor'
-            o = raw_input('Elige origen : ')
-        try:
-            origen = opciones[o]
-        except KeyError:
-            print 'Opcion incorrecta'
-        return origen 
-            
-    def elige_destino():
-        menu()
-        d = raw_input('Elige destino : ')
-        while not d:
-            print 'no ingreso un valor'
-            d = raw_input('Elige destino : ')
-        try:
-            destino = opciones[d]
-        except KeyError:
-            print 'Opcion incorrecta'
-        return destino
-        
-    if opcion == 1:
-        elige_origen()
-    elif opcion == 2:
-        elige_destino()
-    else:
-        return (elige_origen(), elige_destino())
+
         
     
 
 def main():
     system('clear')
-    menu2()
+    menu()
     opcion = raw_input('Elige opcion : ')
     while opcion != '3':
         try:
@@ -134,7 +94,7 @@ def main():
         except KeyError:
             print 'Opción fuera de rango'
     
-        menu2()
+        menu()
         opcion = raw_input('Ingrese opcion: ')         
         
     
