@@ -4,6 +4,7 @@
 #Sistema de viajes
 #para CarmenSanDiego
 
+from decoradores import Verbose
 from os import system
 from time import sleep
 from time import ctime, mktime
@@ -12,9 +13,11 @@ from ciudades import ciudades, menu_ciudades, opciones, origen_y_destino
 jugadores = {}
 
 class detective():
-    def __init__(self, lugar, hora):
+    def __init__(self, lugar, hora, rango):
         self.lugar_actual = lugar
         self.hora_actual = hora
+        self.rango_actual = rango
+    
     
     def viajar(self, origen, destino):
         '''muestra, si es posible, el viaje entre 2 ciudades 
@@ -35,6 +38,7 @@ class detective():
                 print 'Vea las conexiones y pruebe haciendo escalas'
         else:
             print 'Ya se encuentra en esa ciudad'
+    
      
     def distancia(self, origen, destino):
         '''Averigua la distancia en kilometros, si es que existe una conexion
@@ -47,7 +51,7 @@ class detective():
             except KeyError:
                 return -1
 
-    def elegir_viaje(self):
+    def elegir_destino(self):
         system('clear')
         destino = origen_y_destino(2)
         self.viajar(self.lugar_actual, destino)
@@ -77,17 +81,24 @@ def juego_nuevo():
     |Cuartel General de la interpol|
     +------------------------------+
         
-    Lunes 9:00 am
+    %s
         
     Identificate por favor
-    """
+    """ %(ctime())
     nombre = raw_input('Nombre : ')
-    jugadores[nombre] = detective('Buenos Aires', ctime())
-    print 'Tu nombre no se encuentra en la base de datos'
-    sleep(1)
-    print ''
-    print 'Tu rango actual es Novato'
-    sleep(3)
+    if nombre not in jugadores.keys():
+        jugadores[nombre] = detective('Buenos Aires', ctime(), 'Novato')
+        print 'Tu nombre no se encuentra en la base de datos'
+        sleep(1)
+        print ''
+        print 'Tu rango actual es %s' %(jugadores[nombre].rango_actual,)
+        sleep(3)
+    else:
+        print 'Has sido identificado'
+        sleep(1)
+        print ''
+        print 'Tu rango actual es %s' %(jugadores[nombre].rango_actual,)
+        sleep(3)
     system('clear')
     print u"""
                                 *** Noticias ***
@@ -99,15 +110,14 @@ def juego_nuevo():
         
         Tu misión:
             Perseguir al ladron desde Buenos Aires
-            hasta su escondite y arrestarlo. Tienes hasta el domingo
-            a las 23:00 para arrestarlo.
+            hasta su escondite y arrestarlo. Tienes 7 dias 
+            para arrestarlo.
         ----------------------------------------------------------------
         
-        Buena suerte novato %s
-    """ %(nombre,)
+        Buena suerte %s %s
+    """ %(jugadores[nombre].rango_actual, nombre)
     sleep(10)
     control_central(jugadores[nombre])
-
 
 
 def control_central(novato):
@@ -128,7 +138,7 @@ def control_central(novato):
         if opcion == '1':
             novato.ver_conexiones()
         elif opcion == '2':
-            novato.elegir_viaje()
+            novato.elegir_destino()
         elif opcion == '3':
             novato.pistas()
         elif opcion == '4':
@@ -146,7 +156,8 @@ def control_central(novato):
               [1]      [2]      [3]      [4]      [5]
         """
         opcion = raw_input('Ingrese opcion : ')
- 
+
+
 def menu():
         '''simple menu con las opciones del programa'''
         print u"""
@@ -166,13 +177,16 @@ def main():
     system('clear')
     menu()
     opcion = raw_input('Elige opcion : ')
-    if opcion != '2':
+    while opcion != '2':
         try:
             system('clear')
             funciones[opcion]()
         except KeyError:
             print 'Opción fuera de rango'
-    
+        
+        system('clear')
+        menu()
+        opcion = raw_input('Elige opcion : ')
 
 if __name__ == '__main__':
     main()

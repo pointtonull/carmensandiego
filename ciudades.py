@@ -1,5 +1,6 @@
-#!/usr/bin/env python
 #-*- coding: utf-8 -*-
+
+from decoradores import Verbose
 
 ciudades = {
     ('Buenos Aires', 'Rio de Janeiro'): 1960, 
@@ -46,6 +47,7 @@ def menu_ciudades():
                     
     """
 
+
 def origen_y_destino(opcion = 0):
     ''' funcion para elegir ciudades de destino y origen de un menu, si
     se pasa como parametro un 1, retorna solo el origen, si se le pasa un 2
@@ -60,11 +62,11 @@ def origen_y_destino(opcion = 0):
             o = raw_input('Elige origen : ')
         try:
             origen = opciones[o]
-            return origen
+            return origen 
         except KeyError:
             print 'Opcion incorrecta'
-         
-            
+        
+          
     def elige_destino():
         menu_ciudades()
         d = raw_input('Elige destino : ')
@@ -79,8 +81,11 @@ def origen_y_destino(opcion = 0):
         
         
     if opcion == 1:
-        elige_origen()
+        return elige_origen()
     elif opcion == 2:
-        elige_destino()
+        return elige_destino()
     else:
         return (elige_origen(), elige_destino())
+
+
+
