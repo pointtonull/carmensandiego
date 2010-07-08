@@ -1,14 +1,15 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
 
-#Sistema de viajes
-#para CarmenSanDiego
+#Demo del remake
+#de CarmenSanDiego
 
-from decoradores import Verbose
+
 from os import system
 from time import sleep
 from time import ctime, mktime
-from ciudades import ciudades, menu_ciudades, opciones, origen_y_destino 
+from ciudades import ciudades, menu_ciudades, opciones, origen_y_destino
+from misionypistas import mostrar_mision 
 
 jugadores = {}
 
@@ -100,22 +101,8 @@ def juego_nuevo():
         print 'Tu rango actual es %s' %(jugadores[nombre].rango_actual,)
         sleep(3)
     system('clear')
-    print u"""
-                                *** Noticias ***
-        Tesoro nacional robado en Buenos Aires
-        
-        El botin ha sido identificado como el sable curvo de San Martin.    
-        Un sospechoso de sexo femenino fue visto en la escena del crimen
-        ----------------------------------------------------------------
-        
-        Tu misión:
-            Perseguir al ladron desde Buenos Aires
-            hasta su escondite y arrestarlo. Tienes 7 dias 
-            para arrestarlo.
-        ----------------------------------------------------------------
-        
-        Buena suerte %s %s
-    """ %(jugadores[nombre].rango_actual, nombre)
+    mostrar_mision()
+    print 'Buena suerte %s %s'%(jugadores[nombre].rango_actual, nombre)
     sleep(10)
     control_central(jugadores[nombre])
 
@@ -126,15 +113,15 @@ def control_central(novato):
     
         %s | %s
         
-        +-----+ +------+ +------+ +-------+ +-----+
-        |     | |      | |      | |       | |     |
-        | ver | |Viajar| |Pistas| |Arresto| |Salir|
-        |     | |      | |      | |       | |     |
-        +-----+ +------+ +------+ +-------+ +-----+
-          [1]      [2]      [3]      [4]      [5]
+        +-----+ +------+ +------+ +-------+ +------+ +-----+
+        |     | |      | |      | |       | |      | |     |
+        | ver | |Viajar| |Pistas| |Arresto| |misión| |Salir|
+        |     | |      | |      | |       | |      | |     |
+        +-----+ +------+ +------+ +-------+ +------+ +-----+
+          [1]      [2]      [3]      [4]      [5]      [6]
     """ %(novato.lugar_actual, novato.hora_actual)
     opcion = raw_input('Ingrese opcion : ')
-    while opcion != '5':
+    while opcion != '6':
         if opcion == '1':
             novato.ver_conexiones()
         elif opcion == '2':
@@ -143,18 +130,22 @@ def control_central(novato):
             novato.pistas()
         elif opcion == '4':
             novato.arresto()
+        elif opcion == '5':
+            mostrar_mision()
         else:
             print 'opcion fuera de rango'
             system('clear')
         print u"""
-            
-            +-----+ +------+ +------+ +-------+ +-----+
-            |     | |      | |      | |       | |     |
-            | ver | |Viajar| |Pistas| |Arresto| |Salir|
-            |     | |      | |      | |       | |     |
-            +-----+ +------+ +------+ +-------+ +-----+
-              [1]      [2]      [3]      [4]      [5]
-        """
+    
+            %s | %s
+        
+            +-----+ +------+ +------+ +-------+ +------+ +-----+
+            |     | |      | |      | |       | |      | |     |
+            | ver | |Viajar| |Pistas| |Arresto| |misión| |Salir|
+            |     | |      | |      | |       | |      | |     |
+            +-----+ +------+ +------+ +-------+ +------+ +-----+
+              [1]      [2]      [3]      [4]      [5]      [6]
+        """ %(novato.lugar_actual, novato.hora_actual)
         opcion = raw_input('Ingrese opcion : ')
 
 
