@@ -8,8 +8,9 @@
 from os import system
 from time import sleep
 from time import ctime, mktime
-from ciudades import ciudades, menu_ciudades, opciones, origen_y_destino
-from misionypistas import mostrar_mision 
+from ciudades import ciudades, origen_y_destino
+from misionypistas import mostrar_mision
+from ladrones import dossier, orden_arresto 
 
 jugadores = {}
 
@@ -68,10 +69,10 @@ class detective():
                 print clave
     
     def pistas(self):
-        pass
+        print 'Falta implementar'
     
     def arresto(self):
-        pass
+        orden_arresto()
     
 
 
@@ -102,26 +103,37 @@ def juego_nuevo():
         sleep(3)
     system('clear')
     mostrar_mision()
+    sleep(8)
     print 'Buena suerte %s %s'%(jugadores[nombre].rango_actual, nombre)
-    sleep(10)
+    sleep(2)
     control_central(jugadores[nombre])
 
 
+
+def menu_central(novato):
+    print u"""
+    %s | %s
+        
+        +---+ +------+ +------+ +-------+ +------+ +-------+
+        |   | |      | |      | |       | |      | |       |
+        |ver| |Viajar| |Pistas| |Arresto| |misión| |Dossier|
+        |   | |      | |      | |       | |      | |       |
+        +---+ +------+ +------+ +-------+ +------+ +-------+
+         [1]     [2]      [3]      [4]      [5]       [6]
+          
+        +-----+
+        |     |
+        |Salir|
+        |     |
+        +-----+
+          [7] 
+    """ %(novato.lugar_actual, novato.hora_actual)
+
 def control_central(novato):
     system('clear')
-    print u"""
-    
-        %s | %s
-        
-        +-----+ +------+ +------+ +-------+ +------+ +-----+
-        |     | |      | |      | |       | |      | |     |
-        | ver | |Viajar| |Pistas| |Arresto| |misión| |Salir|
-        |     | |      | |      | |       | |      | |     |
-        +-----+ +------+ +------+ +-------+ +------+ +-----+
-          [1]      [2]      [3]      [4]      [5]      [6]
-    """ %(novato.lugar_actual, novato.hora_actual)
+    menu_central(novato)
     opcion = raw_input('Ingrese opcion : ')
-    while opcion != '6':
+    while opcion != '7':
         if opcion == '1':
             novato.ver_conexiones()
         elif opcion == '2':
@@ -132,20 +144,12 @@ def control_central(novato):
             novato.arresto()
         elif opcion == '5':
             mostrar_mision()
+        elif opcion == '6':
+            dossier()
         else:
             print 'opcion fuera de rango'
             system('clear')
-        print u"""
-    
-            %s | %s
-        
-            +-----+ +------+ +------+ +-------+ +------+ +-----+
-            |     | |      | |      | |       | |      | |     |
-            | ver | |Viajar| |Pistas| |Arresto| |misión| |Salir|
-            |     | |      | |      | |       | |      | |     |
-            +-----+ +------+ +------+ +-------+ +------+ +-----+
-              [1]      [2]      [3]      [4]      [5]      [6]
-        """ %(novato.lugar_actual, novato.hora_actual)
+        menu_central(novato)
         opcion = raw_input('Ingrese opcion : ')
 
 
