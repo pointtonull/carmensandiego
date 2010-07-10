@@ -2,17 +2,17 @@
 #-*- coding: utf-8 -*-
 
 caco = {
-    '1' : ('Carmen SanDiego', 'Femenino', 'Tenis', 'Castaño',
+    '1' : ('Carmen SanDiego', 'Femenino', 'Tenis', 'Rojo',
         'Descapotable', 'Collar'),
-    '2' : ('Merey LaRoc', 'Femenino', 'Tenis', 'Castaño', 'Limusina',
+    '2' : ('Merey LaRoc', 'Femenino', 'Alpinismo', 'Castaño', 'Limusina',
         'Joyas'),
     '3' : ('Dazzle Annie Nonker', 'Femenino', 'Tenis', 'Rubio', 'Limusina',
         'Tatuaje'),
-    '4' : ('Lady Agatha Wayland', 'Femenino', 'Tenis', 'Rojo', 'Deportivo',
+    '4' : ('Lady Agatha Wayland', 'Femenino', 'Musica', 'Rojo', 'Deportivo',
         'Anillo'),
     '5' : ('Katherine Drib', 'Femenino', 'Alpinismo', 'Castaño', 'Moto',
         'Tatuaje'),
-    '6' : ['Len ‘Red’ Bulk', 'Masculino', 'Alpinismo', 'Rojo', 
+    '6' : ['Len "Red" Bulk', 'Masculino', 'Alpinismo', 'Rojo', 
         'Descapotable', 'Tatuaje'],
     '7' : ('Scar Graynolt', 'Masculino', 'Croquet', 'Rojo', 'Limusina',
         'Anillo'),
@@ -26,7 +26,7 @@ caco = {
 
 def dossier():
     print u"""
-        [1] : Carmen SanDiego          [6]  : Len ‘Red’ Bulk
+        [1] : Carmen SanDiego          [6]  : Len 'Red' Bulk
         [2] : Merey LaRoc              [7]  : Scar Graynolt
         [3] : Dazzle Annie Nonker      [8]  : Ihor Ihorovitch 
         [4] : Lady Agatha Wayland      [9]  : Fast Eddie B.
@@ -59,8 +59,7 @@ def elegir_sexo():
     """
     opcion = raw_input('Sexo : ')
     if not opcion:
-        opcion = ''
-        return opcion
+        return ''
     try:
         return sexo[opcion]
     except KeyError:
@@ -85,8 +84,7 @@ def elegir_hobby():
     """
     opcion = raw_input('Hobby : ')
     if not opcion:
-        opcion = ''
-        return opcion
+        return ''
     try:
         return hobby[opcion]
     except KeyError:
@@ -109,8 +107,7 @@ def elegir_pelo():
     """
     opcion = raw_input('Color de pelo : ')
     if not opcion:
-        opcion = ''
-        return opcion
+        return ''
     try:
         return pelo[opcion]
     except KeyError:
@@ -135,8 +132,7 @@ def elegir_senias():
     """
     opcion = raw_input('Señas : ')
     if not opcion:
-        opcion = ''
-        return opcion
+        return ''
     try:
         return senias[opcion]
     except KeyError:
@@ -159,15 +155,21 @@ def elegir_coche():
     """
     opcion = raw_input('Elija coche : ')
     if not opcion:
-        opcion = ''
-        return opcion
+        return ''
     try:
         return coche[opcion]
     except KeyError:
         print 'Opcion fuera de rango'    
 
 def buscar_ladron(descripcion):
-    return 'Falta implementar'
+    lista = []
+    for ladron in caco.values():
+        match = [x for x in descripcion if x in ladron]
+        if len(match) == len(descripcion):
+            lista.append(ladron[0])
+    return lista 
+    
+            
 
 def orden_arresto():
     sexo = elegir_sexo()
@@ -176,9 +178,12 @@ def orden_arresto():
     senias = elegir_senias()
     coche = elegir_coche()
     
-    ladron = buscar_ladron((sexo,hobby,pelo,coche,senias))
-    print 'Orden de arresto emitida contra %s' %(ladron,)
-    return ladron
+    descripcion = tuple([x for x in (sexo,hobby,pelo,coche,senias) if x])
+    if descripcion:
+        ladron = buscar_ladron(descripcion)
+        return ladron
+    else:
+        print 'No ingreso ninguna caracteristica'
 
 if __name__ == '__main__':
     orden_arresto()

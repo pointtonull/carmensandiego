@@ -15,10 +15,11 @@ from ladrones import dossier, orden_arresto
 jugadores = {}
 
 class detective():
-    def __init__(self, lugar, hora, rango):
+    def __init__(self, lugar, hora, rango, sospechoso):
         self.lugar_actual = lugar
         self.hora_actual = hora
         self.rango_actual = rango
+        self.sospechoso = sospechoso
     
     
     def viajar(self, origen, destino):
@@ -69,10 +70,30 @@ class detective():
                 print clave
     
     def pistas(self):
+        system('clear')
         print 'Falta implementar'
     
     def arresto(self):
-        orden_arresto()
+        system('clear')
+        print """
+            +----------------------------+
+            |Base de datos de la interpol|
+            +----------------------------+
+        """
+        ladron = orden_arresto()
+        if len(ladron) == 1:
+            print """
+                Sospechoso : %s
+                Orden de arresto emitida contra %s
+            """ %(ladron[0],ladron[0])
+            self.sospechoso = ladron[0]
+        else:
+            if ladron:
+                print 'Posibles sospechosos : %s' %(ladron,)
+            else:
+                print ('Las caracteristicas ingresadas no coinciden con ningun'
+                    'sospechoso')
+            
     
 
 
@@ -89,7 +110,7 @@ def juego_nuevo():
     """ %(ctime())
     nombre = raw_input('Nombre : ')
     if nombre not in jugadores.keys():
-        jugadores[nombre] = detective('Buenos Aires', ctime(), 'Novato')
+        jugadores[nombre] = detective('Buenos Aires', ctime(), 'Novato', '')
         print 'Tu nombre no se encuentra en la base de datos'
         sleep(1)
         print ''
