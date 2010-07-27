@@ -24,7 +24,7 @@ TEMPDIR = mkdtemp()
 HOME = os.environ["HOME"]
 CACHE = HOME +  "/.browser_cache"
 
-class FORM:
+class FORM(object):
 
     def __init__(self, parent, form):
         self.parent = parent
@@ -134,7 +134,7 @@ class BROWSER:
             date = time.time()
             self.htmlCache[url] = date, html
             cPickle.dump(self.htmlCache, open(CACHE, "w"), -1)
-        
+
         return html
 
 
