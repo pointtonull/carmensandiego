@@ -18,9 +18,10 @@ from math import sqrt, floor
 
 CHARS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_.!*()"
 MAXCOORDINATES = 280
-URL = """http://www.topocoding.com/api/altitude_v1.php?%s"""
+URLALTITUDE = """http://www.topocoding.com/api/altitude_v1.php?%s"""
+URLPROFILE = """http://topocoding.com/api/profile_v1.php?%s"""
 REFERER = """http://www.topocoding.com/demo/google.html"""
-KEY = "BGMCCPGOZNKXPZC"
+KEY = "HTPWNNYOYNOJZKM"
 ID = 1
 VERBOSE = 4
 
@@ -116,25 +117,40 @@ def encode_coordinates(coordinates):
 
 
 #@Verbose(VERBOSE)
-def get_elevations(coordinates, browser_instance=None):
+def get_elevations(coordinates):
     r"""
     >>> get_elevations([('  1° 9\'53.06"S ', '  32°46\'14.33"E ')])
     [1134]
     >>> get_elevations([(' 27°26\'27.24"S ', '  58°59\'44.88"O ')])
     [54]
     """
-    b = browser_instance if browser_instance else browser.BROWSER()
+    b = browser.get_browser()
     b._twillbrowser._browser.addheaders.append(("referer", REFERER))
     if type(coordinates) is not str:
         coordinates = encode_coordinates(coordinates)
 
-    url = URL % urllib.urlencode({"l" : coordinates, "key" : KEY, "id" : ID})
+    url = URLALTITUDE % urllib.urlencode({
+        "l" : coordinates,
+        "key" : KEY,
+        "id" : ID
+        })
     output = b.get_html(url, cache=60*60*24*30)
 
     regex = r"""[,\[](\d+)"""
     altitudes = [int(alt) for alt in re.findall(regex, output) if alt]
 
     return altitudes
+
+
+def get_profile_url(points):
+    url = URLPROFILE % urllib.urlencode({
+        "l" : "".join(encode_coordinates(points)),
+        "w" : "1024",
+        "h" : "600",
+        "key" : KEY,
+        "id" : ID
+        })
+    return url
 
 
 if __name__ == "__main__":

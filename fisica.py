@@ -17,6 +17,7 @@ class clase_estacion:
         id=None, id_tipo="smn"):
 
         self.nombre = nombre
+        self.coordenadas = (latitud, longitud, altitud)
         self.latitud = latitud
         self.longitud = longitud
         self.altitud = altitud
@@ -28,6 +29,9 @@ class clase_estacion:
     def __repr__(self, *args):
         return "%s: (%f, %f, %d)" % (self.nombre, self.latitud, self.longitud,
             self.altitud)
+
+    def __getitem__(self, *args):
+        return self.coordenadas.__getitem__(*args)
 
     def calcular_distancia(self, estacion):
         return calcular_distancia(self.latitud, self.longitud, 
