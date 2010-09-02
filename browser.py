@@ -191,6 +191,18 @@ class BROWSER:
         return self.get_code(), self.get_title()
 
 
+class GET_BROSER(object):
+    def __init__(self):
+        self.browser = None
+
+    def __call__(self):
+        if self.browser is None:
+            self.browser = BROWSER()
+        return self.browser
+
+get_browser = GET_BROSER()
+
+
 def main():
     print """Este programa está diseñado para ser usado como modulo"""
 
