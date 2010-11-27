@@ -6,11 +6,12 @@ import time
 import ClientForm
 import cPickle
 
-from tempfile import mkdtemp
+
+from cStringIO import StringIO
 from debug import debug
 from decoradores import signaltimeout
-from cStringIO import StringIO
-
+from functools import wraps
+from tempfile import mkdtemp
 from urllib2 import URLError
 
 import twill
@@ -86,15 +87,21 @@ class BROWSER:
     def clear_cookies(self):
         return self._twillbrowser.clear_cookies()
 
+    def save_cookies(self, filename):
+        return self._twillbrowser.save_cookies(filename)
+
+    def load_cookies(self, filename):
+        return self._twillbrowser.load_cookies(filename)
+
     def add_cookie(self, cookie, dominio):
         """Por ahora no se me ocurrió un metodo más elegante..."""
         temppath = "%s/%d" % (TEMPDIR, time.time())
-        self._twillbrowser.save_cookies(temppath)
+        self.save_cookies(temppath)
         cookiefile = open(temppath, "a+")
         cookiefile.write("""Set-Cookie3:%s; path="/";domain="%s";path_spec;"""
             """domain_dot; expires""; version=0""" % (cookie, dominio))
         cookiefile.close()
-        self._twillbrowser.load_cookies(temppath)
+        self.load_cookies(temppath)
 
     def go(self, url):
         try:
@@ -104,6 +111,7 @@ class BROWSER:
             self._twillbrowser.go(url)
 
         return self.get_code(), self.get_title()
+
 
     def get_html(self, url=None, *args, **kw):
         cache = kw.get("cache", 0)
@@ -144,25 +152,26 @@ class BROWSER:
             self.go(url, *args, **kwargs)
         return self._twillbrowser.get_title()
 
+
     def get_code(self, url=None):
         if url:
             self.go(url)
         return self._twillbrowser.get_code()
 
+
     def get_url(self):
         return self._twillbrowser.get_url()
 
+
     def get_forms(self, url=None, *args, **kw):
-
-        if url is None:
-            url = self.get_url()
-
+        posturl = url or self.get_url()
         fifo = StringIO()
         fifo.writelines(self.get_html(url, *args, **kw))
         fifo.seek(0)
-        forms = ClientForm.ParseFile(fifo, url, backwards_compat=False)
+        forms = ClientForm.ParseFile(fifo, posturl, backwards_compat=False)
 
         return [FORM(self, form) for form in forms]
+
 
     def put_form(self, form=None, *args, **kw):
         if form is None:

@@ -8,5 +8,8 @@ VERBOSE = 1
 
 def debug(*args):
     if VERBOSE:
-        mensaje = " ".join((str(e) for e in args))
-        sys.stderr.write("%7.2f %s\n" % (time.time() - INICIO, mensaje))
+        mensaje = " ".join((repr(e) for e in args))
+        try:
+            sys.stderr.write("%7.2f %s\n" % (time.time() - INICIO, mensaje.decode("latin-1")))
+        except:
+            pass
