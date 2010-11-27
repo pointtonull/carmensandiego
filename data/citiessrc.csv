@@ -1,0 +1,529 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="Description" content="All agglomerations of the world with a population of 1 million inhabitants or more at the reference date 2010-01-01:" />
+<title>The Principal Agglomerations of the World - Population Statistics &amp; Maps</title>
+<link rel="shortcut icon" href="../favicon.ico" />
+<script src="bymap.js" type="text/javascript"></script>
+<script type="text/javascript">call_javainfo()</script>
+</head>
+<body>
+<iframe class="menutop" scrolling="no" frameborder="0" src="../head_e.html"></iframe>
+<div class="mobiadv">
+  <script type="text/javascript">set_mobiadv();</script>
+  <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_afmc_ads.js"></script>
+</div>
+<div id="head">
+<h1>The Principal Agglomerations of the World<span class="noviz"> - statistics and charts as map, diagram and table</span></h1>
+</div>
+<div id="table">
+<p><span class="noviz">Contents: </span>All agglomerations of the world with a population of 1 million inhabitants or more at the reference date <strong>2010-01-01</strong>:</p>
+<table id="tl">
+<tr><th>Rank</th><th><a href="javascript:sort(1,false)">Name</a></th><th><a href="javascript:sort(2,false)">English Name</a></th><th><a href="javascript:sort(3,false)">Country</a></th><th><a href="javascript:sort(4,true)">Population</a></th><th>Remark</th></tr>
+<tr><td class="num">1</td><td id="i6982"><a href="javascript:sym(6982)">Tōkyō</a></td><td>Tokyo</td><td>Japan</td><td class="num">34,000,000</td><td>incl. Yokohama, Kawasaki, Saitama</td></tr>
+<tr><td class="num">2</td><td id="i5372"><a href="javascript:sym(5372)">Guangzhou</a></td><td>Canton</td><td>China</td><td class="num">24,200,000</td><td>Northern Pearl River Delta incl. Dongguan, Foshan, Jiangmen, Zhongshan</td></tr>
+<tr><td class="num">2</td><td id="i7709"><a href="javascript:sym(7709)">Seoul</a></td><td>Seoul</td><td>Korea (South)</td><td class="num">24,200,000</td><td>incl. Bucheon, Goyang, Incheon, Seongnam, Suweon</td></tr>
+<tr><td class="num">4</td><td id="i3420"><a href="javascript:sym(3420)">Ciudad de México</a></td><td>Mexico City</td><td>Mexico</td><td class="num">23,400,000</td><td>incl. Nezahualcóyotl, Ecatepec, Naucalpan</td></tr>
+<tr><td class="num">5</td><td id="i2925"><a href="javascript:sym(2925)">Delhi</a></td><td>Delhi</td><td>India</td><td class="num">23,200,000</td><td>incl. Faridabad, Ghaziabad</td></tr>
+<tr><td class="num">6</td><td id="i2898"><a href="javascript:sym(2898)">Mumbai</a></td><td>Bombay</td><td>India</td><td class="num">22,800,000</td><td>incl. Bhiwandi, Kalyan, Thane, Ulhasnagar</td></tr>
+<tr><td class="num">7</td><td id="i6296"><a href="javascript:sym(6296)">New York</a></td><td>New York</td><td>United States of America</td><td class="num">22,200,000</td><td>incl. Newark, Paterson</td></tr>
+<tr><td class="num">8</td><td id="i2577"><a href="javascript:sym(2577)">São Paulo</a></td><td>Sao Paulo</td><td>Brazil</td><td class="num">20,900,000</td><td>incl. Guarulhos</td></tr>
+<tr><td class="num">9</td><td id="i3621"><a href="javascript:sym(3621)">Manila</a></td><td>Manila</td><td>Philippines</td><td class="num">19,600,000</td><td>incl. Kalookan, Quezon City</td></tr>
+<tr><td class="num">10</td><td id="i5513"><a href="javascript:sym(5513)">Shanghai</a></td><td>Shanghai</td><td>China</td><td class="num">18,400,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">11</td><td id="i6253"><a href="javascript:sym(6253)">Los Angeles</a></td><td>Los Angeles</td><td>United States of America</td><td class="num">17,900,000</td><td>incl. Riverside, Anaheim</td></tr>
+<tr><td class="num">12</td><td id="i6951"><a href="javascript:sym(6951)">Ōsaka</a></td><td>Osaka</td><td>Japan</td><td class="num">16,800,000</td><td>incl. Kobe, Kyoto</td></tr>
+<tr><td class="num">13</td><td id="i2905"><a href="javascript:sym(2905)">Kolkata</a></td><td>Calcutta</td><td>India</td><td class="num">16,300,000</td><td>incl. Haora</td></tr>
+<tr><td class="num">14</td><td id="i7457"><a href="javascript:sym(7457)">Karāchi</a></td><td>Karachi</td><td>Pakistan</td><td class="num">16,200,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">15</td><td id="i1013"><a href="javascript:sym(1013)">Jakarta</a></td><td>Jakarta</td><td>Indonesia</td><td class="num">15,400,000</td><td>incl. Bekasi, Bogor, Depok, Tangerang</td></tr>
+<tr><td class="num">16</td><td id="i572"><a href="javascript:sym(572)">Al-Qāhirah</a></td><td>Cairo</td><td>Egypt</td><td class="num">15,200,000</td><td>incl. Al-Jizah, Hulwan, Shubra al-Khaymah</td></tr>
+<tr><td class="num">17</td><td id="i5311"><a href="javascript:sym(5311)">Beijing</a></td><td>Beijing</td><td>China</td><td class="num">13,600,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">17</td><td id="i717"><a href="javascript:sym(717)">Dhaka</a></td><td>Dacca</td><td>Bangladesh</td><td class="num">13,600,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">17</td><td id="i3845"><a href="javascript:sym(3845)">Moskva</a></td><td>Moscow</td><td>Russia</td><td class="num">13,600,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">20</td><td id="i1883"><a href="javascript:sym(1883)">Buenos Aires</a></td><td>Buenos Aires</td><td>Argentina</td><td class="num">13,300,000</td><td>incl. San Justo, La Plata</td></tr>
+<tr><td class="num">21</td><td id="i7798"><a href="javascript:sym(7798)">İstanbul</a></td><td>Istanbul</td><td>Turkey</td><td class="num">12,800,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">21</td><td id="i1094"><a href="javascript:sym(1094)">Tehrān</a></td><td>Tehran</td><td>Iran</td><td class="num">12,800,000</td><td>incl. Karaj</td></tr>
+<tr><td class="num">23</td><td id="i2560"><a href="javascript:sym(2560)">Rio de Janeiro</a></td><td>Rio de Janeiro</td><td>Brazil</td><td class="num">12,600,000</td><td>incl. Nova Iguaçu, São Gonçalo</td></tr>
+<tr><td class="num">24</td><td id="i7210"><a href="javascript:sym(7210)">London</a></td><td>London</td><td>Great Britain</td><td class="num">12,400,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">25</td><td id="i7946"><a href="javascript:sym(7946)">Lagos</a></td><td>Lagos</td><td>Nigeria</td><td class="num">11,800,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">26</td><td id="i2271"><a href="javascript:sym(2271)">Paris</a></td><td>Paris</td><td>France</td><td class="num">10,400,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">27</td><td id="i6111"><a href="javascript:sym(6111)">Chicago</a></td><td>Chicago</td><td>United States of America</td><td class="num">9,850,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">28</td><td id="i5524"><a href="javascript:sym(5524)">Shenzhen</a></td><td>Shenzhen</td><td>China</td><td class="num">9,150,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">29</td><td id="i3572"><a href="javascript:sym(3572)">Lima</a></td><td>Lima</td><td>Peru</td><td class="num">9,050,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">30</td><td id="i5564"><a href="javascript:sym(5564)">Wuhan</a></td><td>Wuhan</td><td>China</td><td class="num">8,950,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">31</td><td id="i1860"><a href="javascript:sym(1860)">Kinshasa</a></td><td>Kinshasa</td><td>Congo (Dem. Rep.)</td><td class="num">8,900,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">31</td><td id="i1957"><a href="javascript:sym(1957)">Krung Thep</a></td><td>Bangkok</td><td>Thailand</td><td class="num">8,900,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">33</td><td id="i6449"><a href="javascript:sym(6449)">Bogotá</a></td><td>Bogotá</td><td>Colombia</td><td class="num">8,600,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">34</td><td id="i7466"><a href="javascript:sym(7466)">Lahore</a></td><td>Lahore</td><td>Pakistan</td><td class="num">8,550,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">35</td><td id="i6928"><a href="javascript:sym(6928)">Nagoya</a></td><td>Nagoya</td><td>Japan</td><td class="num">8,350,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">35</td><td id="i5545"><a href="javascript:sym(5545)">Tianjin</a></td><td>Tientsin</td><td>China</td><td class="num">8,350,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">37</td><td id="i6420"><a href="javascript:sym(6420)">Washington</a></td><td>Washington</td><td>United States of America</td><td class="num">8,250,000</td><td>incl. Baltimore</td></tr>
+<tr><td class="num">38</td><td id="i3028"><a href="javascript:sym(3028)">Chennai</a></td><td>Madras</td><td>India</td><td class="num">8,200,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">39</td><td id="i2860"><a href="javascript:sym(2860)">Bengaluru</a></td><td>Bangalore</td><td>India</td><td class="num">7,800,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">40</td><td id="i1628"><a href="javascript:sym(1628)">Johannesburg</a></td><td>Johannesburg</td><td>South Africa</td><td class="num">7,550,000</td><td>incl. Soweto, East Rand, West Rand</td></tr>
+<tr><td class="num">41</td><td id="i2977"><a href="javascript:sym(2977)">Hyderābād</a></td><td>Hyderabad</td><td>India</td><td class="num">7,500,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">42</td><td id="i6364"><a href="javascript:sym(6364)">San Francisco</a></td><td>San Francisco</td><td>United States of America</td><td class="num">7,450,000</td><td>incl. Oakland,  San Jose</td></tr>
+<tr><td class="num">43</td><td id="i7072"><a href="javascript:sym(7072)">Hong Kong</a></td><td>Hong Kong</td><td>China</td><td class="num">7,050,000</td><td>incl. Kowloon, Victoria</td></tr>
+<tr><td class="num">44</td><td id="i5523"><a href="javascript:sym(5523)">Shenyang</a></td><td>Shenyang</td><td>China</td><td class="num">6,800,000</td><td>incl. Fushun</td></tr>
+<tr><td class="num">44</td><td id="i482"><a href="javascript:sym(482)">Taipei</a></td><td>Taipei</td><td>Taiwan (Rep. of China)</td><td class="num">6,800,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">46</td><td id="i2384"><a href="javascript:sym(2384)">Baghdād</a></td><td>Baghdad</td><td>Iraq</td><td class="num">6,600,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">47</td><td id="i6128"><a href="javascript:sym(6128)">Dallas</a></td><td>Dallas</td><td>United States of America</td><td class="num">6,500,000</td><td>incl. Fort Worth</td></tr>
+<tr><td class="num">48</td><td id="i5333"><a href="javascript:sym(5333)">Chongqing</a></td><td>Chungking</td><td>China</td><td class="num">6,400,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">49</td><td id="i6678"><a href="javascript:sym(6678)">Madrid</a></td><td>Madrid</td><td>Spain</td><td class="num">6,200,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">50</td><td id="i7922"><a href="javascript:sym(7922)">Thanh Pho Ho Chi Minh</a></td><td>Saigon</td><td>Vietnam</td><td class="num">6,100,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">51</td><td id="i6322"><a href="javascript:sym(6322)">Philadelphia</a></td><td>Philadelphia</td><td>United States of America</td><td class="num">6,000,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">51</td><td id="i6579"><a href="javascript:sym(6579)">Santiago</a></td><td>Santiago</td><td>Chile</td><td class="num">6,000,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">53</td><td id="i2829"><a href="javascript:sym(2829)">Ahmadābād</a></td><td>Ahmedabad</td><td>India</td><td class="num">5,950,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">54</td><td id="i2466"><a href="javascript:sym(2466)">Belo Horizonte</a></td><td>Belo Horizonte</td><td>Brazil</td><td class="num">5,900,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">54</td><td id="i6201"><a href="javascript:sym(6201)">Houston</a></td><td>Houston</td><td>United States of America</td><td class="num">5,900,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">56</td><td id="i5570"><a href="javascript:sym(5570)">Xi'an</a></td><td>Sian</td><td>China</td><td class="num">5,850,000</td><td>incl. Xianyang</td></tr>
+<tr><td class="num">57</td><td id="i6088"><a href="javascript:sym(6088)">Boston</a></td><td>Boston</td><td>United States of America</td><td class="num">5,750,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">57</td><td id="i2801"><a href="javascript:sym(2801)">Toronto</a></td><td>Toronto</td><td>Canada</td><td class="num">5,750,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">59</td><td id="i6063"><a href="javascript:sym(6063)">Atlanta</a></td><td>Atlanta</td><td>United States of America</td><td class="num">5,700,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">59</td><td id="i5330"><a href="javascript:sym(5330)">Chengdu</a></td><td>Chengtu</td><td>China</td><td class="num">5,700,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">61</td><td id="i6138"><a href="javascript:sym(6138)">Detroit</a></td><td>Detroit</td><td>United States of America</td><td class="num">5,550,000</td><td>incl. Windsor (Canada)</td></tr>
+<tr><td class="num">62</td><td id="i6270"><a href="javascript:sym(6270)">Miami</a></td><td>Miami</td><td>United States of America</td><td class="num">5,400,000</td><td>incl. Fort Lauderdale, West Palm Beach</td></tr>
+<tr><td class="num">63</td><td id="i7722"><a href="javascript:sym(7722)">Ar-Riyād</a></td><td>Riyadh</td><td>Saudi Arabia</td><td class="num">5,100,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">64</td><td id="i1591"><a href="javascript:sym(1591)">Al-Kharṭūm</a></td><td>Khartoum</td><td>Sudan</td><td class="num">4,975,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">65</td><td id="i7732"><a href="javascript:sym(7732)">Singapore</a></td><td>Singapore</td><td>Singapore</td><td class="num">4,900,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">66</td><td id="i519"><a href="javascript:sym(519)">Kuala Lumpur</a></td><td>Kuala Lumpur</td><td>Malaysia</td><td class="num">4,875,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">67</td><td id="i3091"><a href="javascript:sym(3091)">Pune</a></td><td>Poona</td><td>India</td><td class="num">4,850,000</td><td>incl. Pimpri-Chinchwad</td></tr>
+<tr><td class="num">68</td><td id="i5481"><a href="javascript:sym(5481)">Nanjing</a></td><td>Nanking</td><td>China</td><td class="num">4,800,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">69</td><td id="i3895"><a href="javascript:sym(3895)">Sankt-Peterburg</a></td><td>St. Petersburg</td><td>Russia</td><td class="num">4,775,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">70</td><td id="i7972"><a href="javascript:sym(7972)">Yangon</a></td><td>Rangoon</td><td>Myanmar</td><td class="num">4,725,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">71</td><td id="i29891"><a href="javascript:sym(29891)">Ruhrgebiet</a></td><td>The Ruhr</td><td>Germany</td><td class="num">4,675,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">72</td><td id="i714"><a href="javascript:sym(714)">Chittagong</a></td><td>Chittagong</td><td>Bangladesh</td><td class="num">4,625,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">72</td><td id="i3437"><a href="javascript:sym(3437)">Guadalajara</a></td><td>Guadalajara</td><td>Mexico</td><td class="num">4,625,000</td><td>incl. Zapopan</td></tr>
+<tr><td class="num">74</td><td id="i5517"><a href="javascript:sym(5517)">Shantou</a></td><td>Shantou</td><td>China</td><td class="num">4,600,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">75</td><td id="i564"><a href="javascript:sym(564)">Al-Iskandarīyah</a></td><td>Alexandria</td><td>Egypt</td><td class="num">4,575,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">76</td><td id="i701"><a href="javascript:sym(701)">Sydney</a></td><td>Sydney</td><td>Australia</td><td class="num">4,475,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">77</td><td id="i815"><a href="javascript:sym(815)">Abidjan</a></td><td>Abidjan</td><td>Cote d'Ivoire</td><td class="num">4,400,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">77</td><td id="i5385"><a href="javascript:sym(5385)">Harbin</a></td><td>Harbin</td><td>China</td><td class="num">4,400,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">77</td><td id="i6323"><a href="javascript:sym(6323)">Phoenix</a></td><td>Phoenix</td><td>United States of America</td><td class="num">4,400,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">80</td><td id="i4671"><a href="javascript:sym(4671)">Berlin</a></td><td>Berlin</td><td>Germany</td><td class="num">4,325,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">80</td><td id="i1801"><a href="javascript:sym(1801)">Caracas</a></td><td>Caracas</td><td>Venezuela</td><td class="num">4,325,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">82</td><td id="i6630"><a href="javascript:sym(6630)">Barcelona</a></td><td>Barcelona</td><td>Spain</td><td class="num">4,300,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">83</td><td id="i3141"><a href="javascript:sym(3141)">Sūrat</a></td><td>Surat</td><td>India</td><td class="num">4,225,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">84</td><td id="i3453"><a href="javascript:sym(3453)">Monterrey</a></td><td>Monterrey</td><td>Mexico</td><td class="num">4,150,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">85</td><td id="i2553"><a href="javascript:sym(2553)">Porto Alegre</a></td><td>Porto Alegre</td><td>Brazil</td><td class="num">4,125,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">86</td><td id="i5383"><a href="javascript:sym(5383)">Hangzhou</a></td><td>Hangchou</td><td>China</td><td class="num">4,075,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">87</td><td id="i6377"><a href="javascript:sym(6377)">Seattle</a></td><td>Seattle</td><td>United States of America</td><td class="num">4,025,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">88</td><td id="i7756"><a href="javascript:sym(7756)">Ankara</a></td><td>Ankara</td><td>Turkey</td><td class="num">4,000,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">88</td><td id="i689"><a href="javascript:sym(689)">Melbourne</a></td><td>Melbourne</td><td>Australia</td><td class="num">4,000,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">90</td><td id="i1345"><a href="javascript:sym(1345)">Casablanca</a></td><td>Casablanca</td><td>Morocco</td><td class="num">3,975,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">91</td><td id="i2562"><a href="javascript:sym(2562)">Salvador</a></td><td>Salvador</td><td>Brazil</td><td class="num">3,950,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">92</td><td id="i2556"><a href="javascript:sym(2556)">Recife</a></td><td>Recife</td><td>Brazil</td><td class="num">3,900,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">93</td><td id="i2470"><a href="javascript:sym(2470)">Brasília</a></td><td>Brasília</td><td>Brazil</td><td class="num">3,850,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">94</td><td id="i5496"><a href="javascript:sym(5496)">Qingdao</a></td><td>Tsingtao</td><td>China</td><td class="num">3,825,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">95</td><td id="i944"><a href="javascript:sym(944)">Athínai</a></td><td>Athens</td><td>Greece</td><td class="num">3,775,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">95</td><td id="i1613"><a href="javascript:sym(1613)">Cape Town</a></td><td>Cape Town</td><td>South Africa</td><td class="num">3,775,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">95</td><td id="i2783"><a href="javascript:sym(2783)">Montréal</a></td><td>Montreal</td><td>Canada</td><td class="num">3,775,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">98</td><td id="i2494"><a href="javascript:sym(2494)">Fortaleza</a></td><td>Fortaleza</td><td>Brazil</td><td class="num">3,725,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">99</td><td id="i7677"><a href="javascript:sym(7677)">Busan</a></td><td>Pusan</td><td>Korea (South)</td><td class="num">3,675,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">99</td><td id="i3004"><a href="javascript:sym(3004)">Kānpur</a></td><td>Kanpur</td><td>India</td><td class="num">3,675,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">101</td><td id="i1617"><a href="javascript:sym(1617)">Durban</a></td><td>Durban</td><td>South Africa</td><td class="num">3,650,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">102</td><td id="i2314"><a href="javascript:sym(2314)">Accra</a></td><td>Accra</td><td>Ghana</td><td class="num">3,575,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">102</td><td id="i3292"><a href="javascript:sym(3292)">Milano</a></td><td>Milan</td><td>Italy</td><td class="num">3,575,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">104</td><td id="i6479"><a href="javascript:sym(6479)">Medellín</a></td><td>Medellín</td><td>Colombia</td><td class="num">3,550,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">104</td><td id="i3324"><a href="javascript:sym(3324)">Roma</a></td><td>Rome</td><td>Italy</td><td class="num">3,550,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">106</td><td id="i333"><a href="javascript:sym(333)">Nairobi</a></td><td>Nairobi</td><td>Kenya</td><td class="num">3,500,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">107</td><td id="i5338"><a href="javascript:sym(5338)">Dalian</a></td><td>Dairen</td><td>China</td><td class="num">3,475,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">108</td><td id="i5319"><a href="javascript:sym(5319)">Changchun</a></td><td>Changchun</td><td>China</td><td class="num">3,450,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">108</td><td id="i6273"><a href="javascript:sym(6273)">Minneapolis</a></td><td>Minneapolis</td><td>United States of America</td><td class="num">3,450,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">110</td><td id="i3734"><a href="javascript:sym(3734)">Kyïv</a></td><td>Kiev</td><td>Ukraine</td><td class="num">3,425,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">111</td><td id="i2486"><a href="javascript:sym(2486)">Curitiba</a></td><td>Curitiba</td><td>Brazil</td><td class="num">3,400,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">112</td><td id="i7947"><a href="javascript:sym(7947)">Ibadan</a></td><td>Ibadan</td><td>Nigeria</td><td class="num">3,375,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">112</td><td id="i5417"><a href="javascript:sym(5417)">Jinan</a></td><td>Jinan</td><td>China</td><td class="num">3,375,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">112</td><td id="i13492"><a href="javascript:sym(13492)">Kano</a></td><td>Kano</td><td>Nigeria</td><td class="num">3,375,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">115</td><td id="i7726"><a href="javascript:sym(7726)">Jiddah</a></td><td>Jidda</td><td>Saudi Arabia</td><td class="num">3,350,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">116</td><td id="i7442"><a href="javascript:sym(7442)">Faisalabad</a></td><td>Lyallpur</td><td>Pakistan</td><td class="num">3,325,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">117</td><td id="i2985"><a href="javascript:sym(2985)">Jaipur</a></td><td>Jaipur</td><td>India</td><td class="num">3,275,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">117</td><td id="i884"><a href="javascript:sym(884)">Santo Domingo</a></td><td>Santo Domingo</td><td>Dominican Republic</td><td class="num">3,275,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">119</td><td id="i999"><a href="javascript:sym(999)">Bandung</a></td><td>Bandung</td><td>Indonesia</td><td class="num">3,250,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">120</td><td id="i7060"><a href="javascript:sym(7060)">Dar es Salaam</a></td><td>Dar es Salaam</td><td>Tanzania</td><td class="num">3,225,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">120</td><td id="i7489"><a href="javascript:sym(7489)">Rāwalpindi</a></td><td>Rawalpindi</td><td>Pakistan</td><td class="num">3,225,000</td><td>incl. Islamabad</td></tr>
+<tr><td class="num">120</td><td id="i5540"><a href="javascript:sym(5540)">Taiyuan</a></td><td>Taiyuan</td><td>China</td><td class="num">3,225,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">123</td><td id="i5436"><a href="javascript:sym(5436)">Kunming</a></td><td>Kunming</td><td>China</td><td class="num">3,200,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">124</td><td id="i2005"><a href="javascript:sym(2005)">El Djazaïr</a></td><td>Algiers</td><td>Algeria</td><td class="num">3,175,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">125</td><td id="i5625"><a href="javascript:sym(5625)">Zhengzhou</a></td><td>Zhengzhou</td><td>China</td><td class="num">3,150,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">126</td><td id="i648"><a href="javascript:sym(648)">Adis Abeba</a></td><td>Addis Abeba</td><td>Ethiopia</td><td class="num">3,100,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">126</td><td id="i5365"><a href="javascript:sym(5365)">Fuzhou</a></td><td>Fuzhou</td><td>China</td><td class="num">3,100,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">126</td><td id="i623"><a href="javascript:sym(623)">Luanda</a></td><td>Luanda</td><td>Angola</td><td class="num">3,100,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">126</td><td id="i3298"><a href="javascript:sym(3298)">Napoli</a></td><td>Naples</td><td>Italy</td><td class="num">3,100,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">130</td><td id="i6363"><a href="javascript:sym(6363)">San Diego</a></td><td>San Diego</td><td>United States of America</td><td class="num">3,025,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">131</td><td id="i1038"><a href="javascript:sym(1038)">Surabaya</a></td><td>Surabaya</td><td>Indonesia</td><td class="num">3,000,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">132</td><td id="i3341"><a href="javascript:sym(3341)">'Ammān</a></td><td>Amman</td><td>Jordan</td><td class="num">2,975,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">133</td><td id="i3025"><a href="javascript:sym(3025)">Lucknow</a></td><td>Lucknow</td><td>India</td><td class="num">2,950,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">134</td><td id="i2350"><a href="javascript:sym(2350)">Ciudad de Guatemala</a></td><td>Guatemala City</td><td>Guatemala</td><td class="num">2,925,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">134</td><td id="i548"><a href="javascript:sym(548)">Kābol</a></td><td>Kabul</td><td>Afghanistan</td><td class="num">2,925,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">136</td><td id="i3704"><a href="javascript:sym(3704)">Ḥalab</a></td><td>Aleppo</td><td>Syria</td><td class="num">2,900,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">136</td><td id="i7799"><a href="javascript:sym(7799)">İzmir</a></td><td>Izmir</td><td>Turkey</td><td class="num">2,900,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">138</td><td id="i6136"><a href="javascript:sym(6136)">Denver</a></td><td>Denver</td><td>United States of America</td><td class="num">2,875,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">139</td><td id="i6354"><a href="javascript:sym(6354)">St. Louis</a></td><td>St. Louis</td><td>United States of America</td><td class="num">2,850,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">140</td><td id="i2473"><a href="javascript:sym(2473)">Campinas</a></td><td>Campinas</td><td>Brazil</td><td class="num">2,825,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">140</td><td id="i3057"><a href="javascript:sym(3057)">Nāgpur</a></td><td>Nagpur</td><td>India</td><td class="num">2,825,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">142</td><td id="i483"><a href="javascript:sym(483)">Kaohsiung</a></td><td>Kaohsiung</td><td>Taiwan (Rep. of China)</td><td class="num">2,800,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">143</td><td id="i5322"><a href="javascript:sym(5322)">Changsha</a></td><td>Changsha</td><td>China</td><td class="num">2,775,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">143</td><td id="i6118"><a href="javascript:sym(6118)">Cleveland</a></td><td>Cleveland</td><td>United States of America</td><td class="num">2,775,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">145</td><td id="i6455"><a href="javascript:sym(6455)">Cali</a></td><td>Cali</td><td>Colombia</td><td class="num">2,750,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">145</td><td id="i6399"><a href="javascript:sym(6399)">Tampa</a></td><td>Tampa</td><td>United States of America</td><td class="num">2,750,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">147</td><td id="i7662"><a href="javascript:sym(7662)">San Juan</a></td><td>San Juan</td><td>Puerto Rico</td><td class="num">2,725,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">148</td><td id="i3702"><a href="javascript:sym(3702)">Dimashq</a></td><td>Damascus</td><td>Syria</td><td class="num">2,700,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">148</td><td id="i7902"><a href="javascript:sym(7902)">Ha Noi</a></td><td>Hanoi</td><td>Vietnam</td><td class="num">2,700,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">148</td><td id="i1078"><a href="javascript:sym(1078)">Mashhad</a></td><td>Meshed</td><td>Iran</td><td class="num">2,700,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">148</td><td id="i1024"><a href="javascript:sym(1024)">Medan</a></td><td>Medan</td><td>Indonesia</td><td class="num">2,700,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">152</td><td id="i1540"><a href="javascript:sym(1540)">Dakar</a></td><td>Dakar</td><td>Senegal</td><td class="num">2,675,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">152</td><td id="i6309"><a href="javascript:sym(6309)">Orlando</a></td><td>Orlando</td><td>United States of America</td><td class="num">2,675,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">152</td><td id="i7939"><a href="javascript:sym(7939)">P'yŏngyang</a></td><td>Pyongyang</td><td>Korea (North)</td><td class="num">2,675,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">155</td><td id="i7104"><a href="javascript:sym(7104)">Birmingham</a></td><td>Birmingham</td><td>Great Britain</td><td class="num">2,625,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">155</td><td id="i7684"><a href="javascript:sym(7684)">Daegu</a></td><td>Taegu</td><td>Korea (South)</td><td class="num">2,625,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">157</td><td id="i4843"><a href="javascript:sym(4843)">Hamburg</a></td><td>Hamburg</td><td>Germany</td><td class="num">2,600,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">157</td><td id="i7218"><a href="javascript:sym(7218)">Manchester</a></td><td>Manchester</td><td>Great Britain</td><td class="num">2,600,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">157</td><td id="i2372"><a href="javascript:sym(2372)">Port-au-Prince</a></td><td>Port-au-Prince</td><td>Haiti</td><td class="num">2,600,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">160</td><td id="i5526"><a href="javascript:sym(5526)">Shijiazhuang</a></td><td>Shijiazhuang</td><td>China</td><td class="num">2,575,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">160</td><td id="i5562"><a href="javascript:sym(5562)">Wenzhou</a></td><td>Wenzhou</td><td>China</td><td class="num">2,575,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">162</td><td id="i1567"><a href="javascript:sym(1567)">Colombo</a></td><td>Colombo</td><td>Sri Lanka</td><td class="num">2,550,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">162</td><td id="i7420"><a href="javascript:sym(7420)">Lisboa</a></td><td>Lisbon</td><td>Portugal</td><td class="num">2,550,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">162</td><td id="i5537"><a href="javascript:sym(5537)">Suzhou</a></td><td>Suzhou</td><td>China</td><td class="num">2,550,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">165</td><td id="i3082"><a href="javascript:sym(3082)">Patna</a></td><td>Patna</td><td>India</td><td class="num">2,525,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">165</td><td id="i1656"><a href="javascript:sym(1656)">Pretoria</a></td><td>Pretoria</td><td>South Africa</td><td class="num">2,525,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">165</td><td id="i6961"><a href="javascript:sym(6961)">Sapporo</a></td><td>Sapporo</td><td>Japan</td><td class="num">2,525,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">168</td><td id="i7886"><a href="javascript:sym(7886)">Toshkent</a></td><td>Tashkent</td><td>Uzbekistan</td><td class="num">2,500,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">168</td><td id="i5634"><a href="javascript:sym(5634)">Zibo</a></td><td>Zibo</td><td>China</td><td class="num">2,500,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">170</td><td id="i7542"><a href="javascript:sym(7542)">Katowice</a></td><td>Katowice</td><td>Poland</td><td class="num">2,475,000</td><td>Upper Silesian Area</td></tr>
+<tr><td class="num">171</td><td id="i3605"><a href="javascript:sym(3605)">Cebu</a></td><td>Cebu</td><td>Philippines</td><td class="num">2,450,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">172</td><td id="i6827"><a href="javascript:sym(6827)">Fukuoka</a></td><td>Fukuoka</td><td>Japan</td><td class="num">2,425,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">173</td><td id="i5375"><a href="javascript:sym(5375)">Guiyang</a></td><td>Guiyang</td><td>China</td><td class="num">2,375,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">173</td><td id="i5556"><a href="javascript:sym(5556)">Urumqi</a></td><td>Urumqi</td><td>China</td><td class="num">2,375,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">173</td><td id="i2803"><a href="javascript:sym(2803)">Vancouver</a></td><td>Vancouver</td><td>Canada</td><td class="num">2,375,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">176</td><td id="i6325"><a href="javascript:sym(6325)">Pittsburgh</a></td><td>Pittsburgh</td><td>United States of America</td><td class="num">2,350,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">177</td><td id="i5443"><a href="javascript:sym(5443)">Lanzhou</a></td><td>Lanzhou</td><td>China</td><td class="num">2,325,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">177</td><td id="i438"><a href="javascript:sym(438)">Tūnis</a></td><td>Tunis</td><td>Tunisia</td><td class="num">2,325,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">179</td><td id="i5301"><a href="javascript:sym(5301)">Anshan</a></td><td>Anshan</td><td>China</td><td class="num">2,300,000</td><td>incl. Liaoyang</td></tr>
+<tr><td class="num">179</td><td id="i6742"><a href="javascript:sym(6742)">Budapest</a></td><td>Budapest</td><td>Hungary</td><td class="num">2,300,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">179</td><td id="i374"><a href="javascript:sym(374)">Harare</a></td><td>Harare</td><td>Zimbabwe</td><td class="num">2,300,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">179</td><td id="i6351"><a href="javascript:sym(6351)">Sacramento</a></td><td>Sacramento</td><td>United States of America</td><td class="num">2,300,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">183</td><td id="i897"><a href="javascript:sym(897)">Guayaquil</a></td><td>Guayaquil</td><td>Ecuador</td><td class="num">2,275,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">183</td><td id="i484"><a href="javascript:sym(484)">Taichung</a></td><td>Taichung</td><td>Taiwan (Rep. of China)</td><td class="num">2,275,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">183</td><td id="i2429"><a href="javascript:sym(2429)">Tel Aviv-Yafo</a></td><td>Tel Aviv-Jaffa</td><td>Israel</td><td class="num">2,275,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">186</td><td id="i6330"><a href="javascript:sym(6330)">Portland</a></td><td>Portland</td><td>United States of America</td><td class="num">2,250,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">187</td><td id="i5387"><a href="javascript:sym(5387)">Hefei</a></td><td>Hofei</td><td>China</td><td class="num">2,225,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">187</td><td id="i857"><a href="javascript:sym(857)">La Habana</a></td><td>Havana</td><td>Cuba</td><td class="num">2,225,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">187</td><td id="i7203"><a href="javascript:sym(7203)">Leeds</a></td><td>Leeds</td><td>Great Britain</td><td class="num">2,225,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">187</td><td id="i7625"><a href="javascript:sym(7625)">Warszawa</a></td><td>Warsaw</td><td>Poland</td><td class="num">2,225,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">187</td><td id="i5567"><a href="javascript:sym(5567)">Wuxi</a></td><td>Wuxi</td><td>China</td><td class="num">2,225,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">192</td><td id="i2464"><a href="javascript:sym(2464)">Belém</a></td><td>Belem</td><td>Brazil</td><td class="num">2,200,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">192</td><td id="i1195"><a href="javascript:sym(1195)">Douala</a></td><td>Douala</td><td>Cameroon</td><td class="num">2,200,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">192</td><td id="i5479"><a href="javascript:sym(5479)">Nanchang</a></td><td>Nanchang</td><td>China</td><td class="num">2,200,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">192</td><td id="i5504"><a href="javascript:sym(5504)">Quanzhou</a></td><td>Quanzhou</td><td>China</td><td class="num">2,200,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">196</td><td id="i1469"><a href="javascript:sym(1469)">Asunción</a></td><td>Asunción</td><td>Paraguay</td><td class="num">2,175,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">196</td><td id="i2881"><a href="javascript:sym(2881)">Bhilai</a></td><td>Bhilai</td><td>India</td><td class="num">2,175,000</td><td>incl. Raipur</td></tr>
+<tr><td class="num">196</td><td id="i6114"><a href="javascript:sym(6114)">Cincinnati</a></td><td>Cincinnati</td><td>United States of America</td><td class="num">2,175,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">196</td><td id="i2497"><a href="javascript:sym(2497)">Goiânia</a></td><td>Goiania</td><td>Brazil</td><td class="num">2,175,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">200</td><td id="i1527"><a href="javascript:sym(1527)">Bucureşti</a></td><td>Bucharest</td><td>Romania</td><td class="num">2,150,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">200</td><td id="i1127"><a href="javascript:sym(1127)">Ṣan'ā'</a></td><td>Sanaa</td><td>Yemen</td><td class="num">2,150,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">202</td><td id="i5487"><a href="javascript:sym(5487)">Ningbo</a></td><td>Ningbo</td><td>China</td><td class="num">2,125,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">203</td><td id="i5482"><a href="javascript:sym(5482)">Nanning</a></td><td>Nanning</td><td>China</td><td class="num">2,100,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">203</td><td id="i6361"><a href="javascript:sym(6361)">San Antonio</a></td><td>San Antonio</td><td>United States of America</td><td class="num">2,100,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">205</td><td id="i1064"><a href="javascript:sym(1064)">Eṣfahān</a></td><td>Isfahan</td><td>Iran</td><td class="num">2,075,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">206</td><td id="i7444"><a href="javascript:sym(7444)">Gujrānwāla</a></td><td>Gujranwala</td><td>Pakistan</td><td class="num">2,050,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">207</td><td id="i672"><a href="javascript:sym(672)">Brisbane</a></td><td>Brisbane</td><td>Australia</td><td class="num">2,025,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">207</td><td id="i7448"><a href="javascript:sym(7448)">Hyderābād</a></td><td>Hyderabad</td><td>Pakistan</td><td class="num">2,025,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">207</td><td id="i6226"><a href="javascript:sym(6226)">Kansas City</a></td><td>Kansas City</td><td>United States of America</td><td class="num">2,025,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">207</td><td id="i5012"><a href="javascript:sym(5012)">München</a></td><td>Munich</td><td>Germany</td><td class="num">2,025,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">211</td><td id="i202"><a href="javascript:sym(202)">Stockholm</a></td><td>Stockholm</td><td>Sweden</td><td class="num">2,000,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">211</td><td id="i103"><a href="javascript:sym(103)">Wien</a></td><td>Vienna</td><td>Austria</td><td class="num">2,000,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">213</td><td id="i2980"><a href="javascript:sym(2980)">Indore</a></td><td>Indore</td><td>India</td><td class="num">1,980,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">213</td><td id="i5181"><a href="javascript:sym(5181)">Stuttgart</a></td><td>Stuttgart</td><td>Germany</td><td class="num">1,980,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">215</td><td id="i7717"><a href="javascript:sym(7717)">Ad-Dammām</a></td><td>Dammam</td><td>Saudi Arabia</td><td class="num">1,970,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">215</td><td id="i1760"><a href="javascript:sym(1760)">Kampala</a></td><td>Kampala</td><td>Uganda</td><td class="num">1,970,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">215</td><td id="i3461"><a href="javascript:sym(3461)">Puebla</a></td><td>Puebla</td><td>Mexico</td><td class="num">1,970,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">215</td><td id="i3167"><a href="javascript:sym(3167)">Vadodara</a></td><td>Vadodara</td><td>India</td><td class="num">1,970,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">219</td><td id="i5542"><a href="javascript:sym(5542)">Tangshan</a></td><td>Tangshan</td><td>China</td><td class="num">1,960,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">219</td><td id="i496"><a href="javascript:sym(496)">Taoyuan</a></td><td>Taoyuan</td><td>Taiwan (Rep. of China)</td><td class="num">1,960,000</td><td>incl. Chungli</td></tr>
+<tr><td class="num">221</td><td id="i7328"><a href="javascript:sym(7328)">Amsterdam</a></td><td>Amsterdam</td><td>Netherlands</td><td class="num">1,950,000</td><td>incl. Haarlem</td></tr>
+<tr><td class="num">221</td><td id="i6206"><a href="javascript:sym(6206)">Indianapolis</a></td><td>Indianapolis</td><td>United States of America</td><td class="num">1,950,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">223</td><td id="i4783"><a href="javascript:sym(4783)">Frankfurt</a></td><td>Frankfurt</td><td>Germany</td><td class="num">1,930,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">224</td><td id="i637"><a href="javascript:sym(637)">Bakı</a></td><td>Baku</td><td>Azerbaijan</td><td class="num">1,920,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">224</td><td id="i1325"><a href="javascript:sym(1325)">Bamako</a></td><td>Bamako</td><td>Mali</td><td class="num">1,920,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">224</td><td id="i5569"><a href="javascript:sym(5569)">Xiamen</a></td><td>Xiamen</td><td>China</td><td class="num">1,920,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">227</td><td id="i2887"><a href="javascript:sym(2887)">Bhopāl</a></td><td>Bhopal</td><td>India</td><td class="num">1,910,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">227</td><td id="i2916"><a href="javascript:sym(2916)">Coimbatore</a></td><td>Coimbatore</td><td>India</td><td class="num">1,910,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">227</td><td id="i6241"><a href="javascript:sym(6241)">Las Vegas</a></td><td>Las Vegas</td><td>United States of America</td><td class="num">1,910,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">227</td><td id="i7077"><a href="javascript:sym(7077)">Maputo</a></td><td>Maputo</td><td>Mozambique</td><td class="num">1,910,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">227</td><td id="i1821"><a href="javascript:sym(1821)">Maracaibo</a></td><td>Maracaibo</td><td>Venezuela</td><td class="num">1,910,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">232</td><td id="i4919"><a href="javascript:sym(4919)">Köln</a></td><td>Cologne</td><td>Germany</td><td class="num">1,900,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">233</td><td id="i5416"><a href="javascript:sym(5416)">Jilin</a></td><td>Jilin</td><td>China</td><td class="num">1,890,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">233</td><td id="i1360"><a href="javascript:sym(1360)">Rabat</a></td><td>Rabat</td><td>Morocco</td><td class="num">1,890,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">235</td><td id="i7021"><a href="javascript:sym(7021)">Bruxelles</a></td><td>Brussels</td><td>Belgium</td><td class="num">1,870,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">236</td><td id="i7740"><a href="javascript:sym(7740)">Antananarivo</a></td><td>Tananarive</td><td>Madagascar</td><td class="num">1,860,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">237</td><td id="i6447"><a href="javascript:sym(6447)">Barranquilla</a></td><td>Barranquilla</td><td>Colombia</td><td class="num">1,850,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">237</td><td id="i6603"><a href="javascript:sym(6603)">Minsk</a></td><td>Minsk</td><td>Belarus</td><td class="num">1,850,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">237</td><td id="i7476"><a href="javascript:sym(7476)">Multān</a></td><td>Multan</td><td>Pakistan</td><td class="num">1,850,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">240</td><td id="i6521"><a href="javascript:sym(6521)">Al-Kuwayt</a></td><td>Kuwait City</td><td>Kuwait</td><td class="num">1,840,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">240</td><td id="i3727"><a href="javascript:sym(3727)">Donėc'k</a></td><td>Donetsk</td><td>Ukraine</td><td class="num">1,840,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">240</td><td id="i6846"><a href="javascript:sym(6846)">Hiroshima</a></td><td>Hiroshima</td><td>Japan</td><td class="num">1,840,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">240</td><td id="i749"><a href="javascript:sym(749)">La Paz</a></td><td>La Paz</td><td>Bolivia</td><td class="num">1,840,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">244</td><td id="i3722"><a href="javascript:sym(3722)">Charkiv</a></td><td>Kharkov</td><td>Ukraine</td><td class="num">1,830,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">244</td><td id="i362"><a href="javascript:sym(362)">Lusaka</a></td><td>Lusaka</td><td>Zambia</td><td class="num">1,830,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">246</td><td id="i3026"><a href="javascript:sym(3026)">Ludhiāna</a></td><td>Ludhiana</td><td>India</td><td class="num">1,820,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">247</td><td id="i2828"><a href="javascript:sym(2828)">Āgra</a></td><td>Agra</td><td>India</td><td class="num">1,810,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">247</td><td id="i6123"><a href="javascript:sym(6123)">Columbus</a></td><td>Columbus</td><td>United States of America</td><td class="num">1,810,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">249</td><td id="i5325"><a href="javascript:sym(5325)">Changzhou</a></td><td>Changzhou</td><td>China</td><td class="num">1,790,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">249</td><td id="i1026"><a href="javascript:sym(1026)">Palembang</a></td><td>Palembang</td><td>Indonesia</td><td class="num">1,790,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">251</td><td id="i6106"><a href="javascript:sym(6106)">Charlotte</a></td><td>Charlotte</td><td>United States of America</td><td class="num">1,780,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">252</td><td id="i3477"><a href="javascript:sym(3477)">Toluca</a></td><td>Toluca</td><td>Mexico</td><td class="num">1,770,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">253</td><td id="i6272"><a href="javascript:sym(6272)">Milwaukee</a></td><td>Milwaukee</td><td>United States of America</td><td class="num">1,760,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">254</td><td id="i5308"><a href="javascript:sym(5308)">Baotou</a></td><td>Baotou</td><td>China</td><td class="num">1,750,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">254</td><td id="i2524"><a href="javascript:sym(2524)">Manaus</a></td><td>Manaus</td><td>Brazil</td><td class="num">1,750,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">254</td><td id="i1837"><a href="javascript:sym(1837)">Valencia</a></td><td>Valencia</td><td>Venezuela</td><td class="num">1,750,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">254</td><td id="i1206"><a href="javascript:sym(1206)">Yaoundé</a></td><td>Yaounde</td><td>Cameroon</td><td class="num">1,750,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">258</td><td id="i5403"><a href="javascript:sym(5403)">Huizhou</a></td><td>Huizhou</td><td>China</td><td class="num">1,740,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">258</td><td id="i3474"><a href="javascript:sym(3474)">Tijuana</a></td><td>Tijuana</td><td>Mexico</td><td class="num">1,740,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">258</td><td id="i2592"><a href="javascript:sym(2592)">Vitória</a></td><td>Vitoria</td><td>Brazil</td><td class="num">1,740,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">261</td><td id="i6069"><a href="javascript:sym(6069)">Austin</a></td><td>Austin</td><td>United States of America</td><td class="num">1,720,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">261</td><td id="i2915"><a href="javascript:sym(2915)">Kochi</a></td><td>Cochin</td><td>India</td><td class="num">1,720,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">261</td><td id="i1782"><a href="javascript:sym(1782)">Montevideo</a></td><td>Montevideo</td><td>Uruguay</td><td class="num">1,720,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">264</td><td id="i277"><a href="javascript:sym(277)">San Salvador</a></td><td>San Salvador</td><td>El Salvador</td><td class="num">1,710,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">264</td><td id="i753"><a href="javascript:sym(753)">Santa Cruz</a></td><td>Santa Cruz</td><td>Bolivia</td><td class="num">1,710,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">264</td><td id="i2567"><a href="javascript:sym(2567)">Santos</a></td><td>Santos</td><td>Brazil</td><td class="num">1,710,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">264</td><td id="i1036"><a href="javascript:sym(1036)">Semarang</a></td><td>Semarang</td><td>Indonesia</td><td class="num">1,710,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">268</td><td id="i780"><a href="javascript:sym(780)">Ouagadougou</a></td><td>Ouagadougou</td><td>Burkina Faso</td><td class="num">1,700,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">269</td><td id="i979"><a href="javascript:sym(979)">Conakry</a></td><td>Conakry</td><td>Guinea</td><td class="num">1,690,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">269</td><td id="i3857"><a href="javascript:sym(3857)">Nižnij Novgorod</a></td><td>Nizhniy Novgorod</td><td>Russia</td><td class="num">1,690,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">269</td><td id="i6360"><a href="javascript:sym(6360)">Salt Lake City</a></td><td>Salt Lake City</td><td>United States of America</td><td class="num">1,690,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">269</td><td id="i3173"><a href="javascript:sym(3173)">Visākhapatnam</a></td><td>Vishakhapatnam</td><td>India</td><td class="num">1,690,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">273</td><td id="i2851"><a href="javascript:sym(2851)">Asansol</a></td><td>Asansol</td><td>India</td><td class="num">1,680,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">273</td><td id="i3041"><a href="javascript:sym(3041)">Meerut</a></td><td>Meerut</td><td>India</td><td class="num">1,680,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">273</td><td id="i3061"><a href="javascript:sym(3061)">Nāshik</a></td><td>Nasik</td><td>India</td><td class="num">1,680,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">276</td><td id="i2888"><a href="javascript:sym(2888)">Bhubaneswar</a></td><td>Bhubaneswar</td><td>India</td><td class="num">1,670,000</td><td>incl. Cuttack</td></tr>
+<tr><td class="num">276</td><td id="i13488"><a href="javascript:sym(13488)">Kaduna</a></td><td>Kaduna</td><td>Nigeria</td><td class="num">1,670,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">278</td><td id="i693"><a href="javascript:sym(693)">Perth</a></td><td>Perth</td><td>Australia</td><td class="num">1,660,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">278</td><td id="i6724"><a href="javascript:sym(6724)">Valencia</a></td><td>Valencia</td><td>Spain</td><td class="num">1,660,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">278</td><td id="i6416"><a href="javascript:sym(6416)">Virginia Beach</a></td><td>Virginia Beach</td><td>United States of America</td><td class="num">1,660,000</td><td>incl. Norfolk</td></tr>
+<tr><td class="num">281</td><td id="i6338"><a href="javascript:sym(6338)">Raleigh</a></td><td>Raleigh</td><td>United States of America</td><td class="num">1,650,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">281</td><td id="i5589"><a href="javascript:sym(5589)">Xuzhou</a></td><td>Xuzhou</td><td>China</td><td class="num">1,650,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">283</td><td id="i3445"><a href="javascript:sym(3445)">León</a></td><td>León</td><td>Mexico</td><td class="num">1,640,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">284</td><td id="i2327"><a href="javascript:sym(2327)">Kumasi</a></td><td>Kumasi</td><td>Ghana</td><td class="num">1,630,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">285</td><td id="i7769"><a href="javascript:sym(7769)">Bursa</a></td><td>Bursa</td><td>Turkey</td><td class="num">1,620,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">285</td><td id="i2909"><a href="javascript:sym(2909)">Chandīgarh</a></td><td>Chandigarh</td><td>India</td><td class="num">1,620,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">287</td><td id="i7485"><a href="javascript:sym(7485)">Peshāwar</a></td><td>Peshawar</td><td>Pakistan</td><td class="num">1,610,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">287</td><td id="i908"><a href="javascript:sym(908)">Quito</a></td><td>Quito</td><td>Ecuador</td><td class="num">1,610,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">287</td><td id="i3203"><a href="javascript:sym(3203)">Torino</a></td><td>Turin</td><td>Italy</td><td class="num">1,610,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">290</td><td id="i1137"><a href="javascript:sym(1137)">Beograd</a></td><td>Belgrade</td><td>Serbia</td><td class="num">1,590,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">290</td><td id="i6285"><a href="javascript:sym(6285)">Nashville</a></td><td>Nashville</td><td>United States of America</td><td class="num">1,590,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">290</td><td id="i6334"><a href="javascript:sym(6334)">Providence</a></td><td>Providence</td><td>United States of America</td><td class="num">1,590,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">293</td><td id="i6886"><a href="javascript:sym(6886)">Kitakyūshū</a></td><td>Kitakyushu</td><td>Japan</td><td class="num">1,580,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">294</td><td id="i1865"><a href="javascript:sym(1865)">Lubumbashi</a></td><td>Lubumbashi</td><td>Congo (Dem. Rep.)</td><td class="num">1,570,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">294</td><td id="i7729"><a href="javascript:sym(7729)">Makkah</a></td><td>Mecca</td><td>Saudi Arabia</td><td class="num">1,570,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">296</td><td id="i2816"><a href="javascript:sym(2816)">Ghazzah</a></td><td>Gaza</td><td>Palestinian Territories</td><td class="num">1,560,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">296</td><td id="i3809"><a href="javascript:sym(3809)">Jekaterinburg</a></td><td>Yekaterinburg</td><td>Russia</td><td class="num">1,560,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">298</td><td id="i11725"><a href="javascript:sym(11725)">Dubayy</a></td><td>Dubai</td><td>United Arab Emirates</td><td class="num">1,550,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">298</td><td id="i5469"><a href="javascript:sym(5469)">Luoyang</a></td><td>Luoyang</td><td>China</td><td class="num">1,550,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">298</td><td id="i5502"><a href="javascript:sym(5502)">Qiqihar</a></td><td>Qiqihar</td><td>China</td><td class="num">1,550,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">298</td><td id="i6964"><a href="javascript:sym(6964)">Sendai</a></td><td>Sendai</td><td>Japan</td><td class="num">1,550,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">298</td><td id="i5597"><a href="javascript:sym(5597)">Yantai</a></td><td>Yantai</td><td>China</td><td class="num">1,550,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">303</td><td id="i7694"><a href="javascript:sym(7694)">Gwangju</a></td><td>Kwangju</td><td>Korea (South)</td><td class="num">1,520,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">303</td><td id="i3014"><a href="javascript:sym(3014)">Kolhāpur</a></td><td>Kolhapur</td><td>India</td><td class="num">1,520,000</td><td>incl. Sangli</td></tr>
+<tr><td class="num">303</td><td id="i1697"><a href="javascript:sym(1697)">Lomé</a></td><td>Lomé</td><td>Togo</td><td class="num">1,520,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">303</td><td id="i1868"><a href="javascript:sym(1868)">Mbuji-Mayi</a></td><td>Mbuji-Mayi</td><td>Congo (Dem. Rep.)</td><td class="num">1,520,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">303</td><td id="i3169"><a href="javascript:sym(3169)">Vārānasi</a></td><td>Benares</td><td>India</td><td class="num">1,520,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">308</td><td id="i2379"><a href="javascript:sym(2379)">Al-Mawṣil</a></td><td>Mosul</td><td>Iraq</td><td class="num">1,510,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">308</td><td id="i1093"><a href="javascript:sym(1093)">Tabrīz</a></td><td>Tabriz</td><td>Iran</td><td class="num">1,510,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">308</td><td id="i15606"><a href="javascript:sym(15606)">Taizhou</a></td><td>Taizhou</td><td>China</td><td class="num">1,510,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">311</td><td id="i7685"><a href="javascript:sym(7685)">Daejeon</a></td><td>Taejon</td><td>Korea (South)</td><td class="num">1,500,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">311</td><td id="i5461"><a href="javascript:sym(5461)">Liuzhou</a></td><td>Liuzhou</td><td>China</td><td class="num">1,500,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">311</td><td id="i7739"><a href="javascript:sym(7739)">Muqdisho</a></td><td>Mogadishu</td><td>Somalia</td><td class="num">1,500,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">311</td><td id="i3869"><a href="javascript:sym(3869)">Novosibirsk</a></td><td>Novosibirsk</td><td>Russia</td><td class="num">1,500,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">315</td><td id="i6097"><a href="javascript:sym(6097)">Buffalo</a></td><td>Buffalo</td><td>United States of America</td><td class="num">1,490,000</td><td>incl. St. Catharines (Canada)</td></tr>
+<tr><td class="num">315</td><td id="i725"><a href="javascript:sym(725)">Khulna</a></td><td>Khulna</td><td>Bangladesh</td><td class="num">1,490,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">315</td><td id="i7381"><a href="javascript:sym(7381)">Rotterdam</a></td><td>Rotterdam</td><td>Netherlands</td><td class="num">1,490,000</td><td>incl. Dordrecht</td></tr>
+<tr><td class="num">315</td><td id="i5558"><a href="javascript:sym(5558)">Weifang</a></td><td>Weifang</td><td>China</td><td class="num">1,490,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">319</td><td id="i3422"><a href="javascript:sym(3422)">Ciudad Juárez</a></td><td>Ciudad Juárez</td><td>Mexico</td><td class="num">1,480,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">319</td><td id="i1184"><a href="javascript:sym(1184)">Phnum Pénh</a></td><td>Phnom Penh</td><td>Cambodia</td><td class="num">1,480,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">321</td><td id="i5399"><a href="javascript:sym(5399)">Huainan</a></td><td>Huainan</td><td>China</td><td class="num">1,470,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">321</td><td id="i3527"><a href="javascript:sym(3527)">Kāṭhmānḍau</a></td><td>Kathmandu</td><td>Nepal</td><td class="num">1,470,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">321</td><td id="i5595"><a href="javascript:sym(5595)">Yangzhou</a></td><td>Yangzhou</td><td>China</td><td class="num">1,470,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">324</td><td id="i7747"><a href="javascript:sym(7747)">Adana</a></td><td>Adana</td><td>Turkey</td><td class="num">1,460,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">324</td><td id="i2242"><a href="javascript:sym(2242)">Lyon</a></td><td>Lyon</td><td>France</td><td class="num">1,460,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">324</td><td id="i2245"><a href="javascript:sym(2245)">Marseille</a></td><td>Marseille</td><td>France</td><td class="num">1,460,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">324</td><td id="i5571"><a href="javascript:sym(5571)">Xiangfan</a></td><td>Xiangfan</td><td>China</td><td class="num">1,460,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">328</td><td id="i809"><a href="javascript:sym(809)">San José</a></td><td>San José</td><td>Costa Rica</td><td class="num">1,450,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">329</td><td id="i3608"><a href="javascript:sym(3608)">Davao</a></td><td>Davao</td><td>Philippines</td><td class="num">1,440,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">329</td><td id="i7383"><a href="javascript:sym(7383)">'s-Gravenhage</a></td><td>The Hague</td><td>Netherlands</td><td class="num">1,440,000</td><td>incl. Leiden</td></tr>
+<tr><td class="num">329</td><td id="i5631"><a href="javascript:sym(5631)">Zhuhai</a></td><td>Zhuhai</td><td>China</td><td class="num">1,440,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">332</td><td id="i1222"><a href="javascript:sym(1222)">Brazzaville</a></td><td>Brazzaville</td><td>Congo (Rep.)</td><td class="num">1,430,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">333</td><td id="i1889"><a href="javascript:sym(1889)">Córdoba</a></td><td>Córdoba</td><td>Argentina</td><td class="num">1,420,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">333</td><td id="i7167"><a href="javascript:sym(7167)">Glasgow</a></td><td>Glasgow</td><td>Great Britain</td><td class="num">1,420,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">333</td><td id="i2991"><a href="javascript:sym(2991)">Jamshedpur</a></td><td>Jamshedpur</td><td>India</td><td class="num">1,420,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">333</td><td id="i6944"><a href="javascript:sym(6944)">Okayama</a></td><td>Okayama</td><td>Japan</td><td class="num">1,420,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">333</td><td id="i3103"><a href="javascript:sym(3103)">Rājkot</a></td><td>Rajkot</td><td>India</td><td class="num">1,420,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">338</td><td id="i2086"><a href="javascript:sym(2086)">København</a></td><td>Copenhagen</td><td>Denmark</td><td class="num">1,410,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">339</td><td id="i1307"><a href="javascript:sym(1307)">Bayrūt</a></td><td>Beirut</td><td>Lebanon</td><td class="num">1,400,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">339</td><td id="i5459"><a href="javascript:sym(5459)">Linyi</a></td><td>Linyi</td><td>China</td><td class="num">1,400,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">341</td><td id="i341"><a href="javascript:sym(341)">Ciudad de Panamá</a></td><td>Panama City</td><td>Panama</td><td class="num">1,380,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">341</td><td id="i3029"><a href="javascript:sym(3029)">Madurai</a></td><td>Madurai</td><td>India</td><td class="num">1,380,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">341</td><td id="i3894"><a href="javascript:sym(3894)">Samara</a></td><td>Samara</td><td>Russia</td><td class="num">1,380,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">344</td><td id="i3726"><a href="javascript:sym(3726)">Dnipropėtrovs'k</a></td><td>Dnepropetrovsk</td><td>Ukraine</td><td class="num">1,370,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">344</td><td id="i6254"><a href="javascript:sym(6254)">Louisville</a></td><td>Louisville</td><td>United States of America</td><td class="num">1,370,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">344</td><td id="i1733"><a href="javascript:sym(1733)">Praha</a></td><td>Prague</td><td>Czech Republic</td><td class="num">1,370,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">347</td><td id="i2983"><a href="javascript:sym(2983)">Jabalpur</a></td><td>Jabalpur</td><td>India</td><td class="num">1,360,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">348</td><td id="i2844"><a href="javascript:sym(2844)">Amritsar</a></td><td>Amritsar</td><td>India</td><td class="num">1,350,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">348</td><td id="i2927"><a href="javascript:sym(2927)">Dhanbād</a></td><td>Dhanbad</td><td>India</td><td class="num">1,350,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">348</td><td id="i1045"><a href="javascript:sym(1045)">Makasar</a></td><td>Makasar</td><td>Indonesia</td><td class="num">1,350,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">351</td><td id="i1394"><a href="javascript:sym(1394)">Auckland</a></td><td>Auckland</td><td>New Zealand</td><td class="num">1,340,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">351</td><td id="i6186"><a href="javascript:sym(6186)">Greensboro</a></td><td>Greensboro</td><td>United States of America</td><td class="num">1,340,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">351</td><td id="i7208"><a href="javascript:sym(7208)">Liverpool</a></td><td>Liverpool</td><td>Great Britain</td><td class="num">1,340,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">351</td><td id="i3934"><a href="javascript:sym(3934)">Volgograd</a></td><td>Volgograd</td><td>Russia</td><td class="num">1,340,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">355</td><td id="i3792"><a href="javascript:sym(3792)">Čel'abinsk</a></td><td>Chelyabinsk</td><td>Russia</td><td class="num">1,330,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">355</td><td id="i5342"><a href="javascript:sym(5342)">Daqing</a></td><td>Daqing</td><td>China</td><td class="num">1,330,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">355</td><td id="i6212"><a href="javascript:sym(6212)">Jacksonville</a></td><td>Jacksonville</td><td>United States of America</td><td class="num">1,330,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">355</td><td id="i6715"><a href="javascript:sym(6715)">Sevilla</a></td><td>Sevilla</td><td>Spain</td><td class="num">1,330,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">359</td><td id="i1091"><a href="javascript:sym(1091)">Shīrāz</a></td><td>Shiraz</td><td>Iran</td><td class="num">1,320,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">360</td><td id="i3352"><a href="javascript:sym(3352)">Almaty</a></td><td>Alma-Ata</td><td>Kazakhstan</td><td class="num">1,310,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">360</td><td id="i2576"><a href="javascript:sym(2576)">São Luís</a></td><td>Sao Luis</td><td>Brazil</td><td class="num">1,310,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">360</td><td id="i7261"><a href="javascript:sym(7261)">Sheffield</a></td><td>Sheffield</td><td>Great Britain</td><td class="num">1,310,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">363</td><td id="i6265"><a href="javascript:sym(6265)">Memphis</a></td><td>Memphis</td><td>United States of America</td><td class="num">1,300,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">364</td><td id="i2837"><a href="javascript:sym(2837)">Allahābād</a></td><td>Allahabad</td><td>India</td><td class="num">1,280,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">364</td><td id="i7789"><a href="javascript:sym(7789)">Gaziantep</a></td><td>Gaziantep</td><td>Turkey</td><td class="num">1,280,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">364</td><td id="i1922"><a href="javascript:sym(1922)">Rosario</a></td><td>Rosario</td><td>Argentina</td><td class="num">1,280,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">364</td><td id="i3889"><a href="javascript:sym(3889)">Rostov-na-Donu</a></td><td>Rostov-na-Donu</td><td>Russia</td><td class="num">1,280,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">368</td><td id="i5393"><a href="javascript:sym(5393)">Hohhot</a></td><td>Huhehot</td><td>China</td><td class="num">1,270,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">368</td><td id="i485"><a href="javascript:sym(485)">Tainan</a></td><td>Tainan</td><td>Taiwan (Rep. of China)</td><td class="num">1,270,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">368</td><td id="i3172"><a href="javascript:sym(3172)">Vijayawāda</a></td><td>Vijayawada</td><td>India</td><td class="num">1,270,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">371</td><td id="i2535"><a href="javascript:sym(2535)">Natal</a></td><td>Natal</td><td>Brazil</td><td class="num">1,260,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">371</td><td id="i2034"><a href="javascript:sym(2034)">Oran</a></td><td>Oran</td><td>Algeria</td><td class="num">1,260,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">371</td><td id="i2750"><a href="javascript:sym(2750)">Sofija</a></td><td>Sofia</td><td>Bulgaria</td><td class="num">1,260,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">374</td><td id="i5343"><a href="javascript:sym(5343)">Datong</a></td><td>Datong</td><td>China</td><td class="num">1,250,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">374</td><td id="i5377"><a href="javascript:sym(5377)">Haikou</a></td><td>Haikou</td><td>China</td><td class="num">1,250,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">374</td><td id="i29902"><a href="javascript:sym(29902)">Mannheim</a></td><td>Mannheim</td><td>Germany</td><td class="num">1,250,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">374</td><td id="i6344"><a href="javascript:sym(6344)">Richmond</a></td><td>Richmond</td><td>United States of America</td><td class="num">1,250,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">374</td><td id="i2852"><a href="javascript:sym(2852)">Shambajinagar</a></td><td>Aurangabad</td><td>India</td><td class="num">1,250,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">379</td><td id="i13469"><a href="javascript:sym(13469)">Benin City</a></td><td>Benin City</td><td>Nigeria</td><td class="num">1,240,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">379</td><td id="i5335"><a href="javascript:sym(5335)">Cixi</a></td><td>Cixi</td><td>China</td><td class="num">1,240,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">379</td><td id="i2239"><a href="javascript:sym(2239)">Lille</a></td><td>Lille</td><td>France</td><td class="num">1,240,000</td><td>incl. Kortrijk (Belgium)</td></tr>
+<tr><td class="num">382</td><td id="i6304"><a href="javascript:sym(6304)">Oklahoma City</a></td><td>Oklahoma City</td><td>United States of America</td><td class="num">1,230,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">382</td><td id="i13549"><a href="javascript:sym(13549)">Port Harcourt</a></td><td>Port Harcourt</td><td>Nigeria</td><td class="num">1,230,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">382</td><td id="i7424"><a href="javascript:sym(7424)">Porto</a></td><td>Porto</td><td>Portugal</td><td class="num">1,230,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">382</td><td id="i3140"><a href="javascript:sym(3140)">Srīnagar</a></td><td>Srinagar</td><td>India</td><td class="num">1,230,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">382</td><td id="i309"><a href="javascript:sym(309)">Tbilisi</a></td><td>Tbilisi</td><td>Georgia</td><td class="num">1,230,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">382</td><td id="i3479"><a href="javascript:sym(3479)">Torreón</a></td><td>Torreón</td><td>Mexico</td><td class="num">1,230,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">388</td><td id="i4743"><a href="javascript:sym(4743)">Düsseldorf</a></td><td>Dusseldorf</td><td>Germany</td><td class="num">1,220,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">388</td><td id="i1822"><a href="javascript:sym(1822)">Maracay</a></td><td>Maracay</td><td>Venezuela</td><td class="num">1,220,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">388</td><td id="i6592"><a href="javascript:sym(6592)">Yerevan</a></td><td>Yerevan</td><td>Armenia</td><td class="num">1,220,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">391</td><td id="i2762"><a href="javascript:sym(2762)">Calgary</a></td><td>Calgary</td><td>Canada</td><td class="num">1,210,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">391</td><td id="i6183"><a href="javascript:sym(6183)">Grand Rapids</a></td><td>Grand Rapids</td><td>United States of America</td><td class="num">1,210,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">391</td><td id="i1300"><a href="javascript:sym(1300)">Ṭarābulus</a></td><td>Tripoli</td><td>Libya</td><td class="num">1,210,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">394</td><td id="i1553"><a href="javascript:sym(1553)">Freetown</a></td><td>Freetown</td><td>Sierra Leone</td><td class="num">1,200,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">394</td><td id="i2523"><a href="javascript:sym(2523)">Maceió</a></td><td>Maceio</td><td>Brazil</td><td class="num">1,200,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">394</td><td id="i5478"><a href="javascript:sym(5478)">Mudanjiang</a></td><td>Mudanjiang</td><td>China</td><td class="num">1,200,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">394</td><td id="i2787"><a href="javascript:sym(2787)">Ottawa</a></td><td>Ottawa</td><td>Canada</td><td class="num">1,200,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">398</td><td id="i666"><a href="javascript:sym(666)">Adelaide</a></td><td>Adelaide</td><td>Australia</td><td class="num">1,190,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">398</td><td id="i1798"><a href="javascript:sym(1798)">Barquisimeto</a></td><td>Barquisimeto</td><td>Venezuela</td><td class="num">1,190,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">398</td><td id="i6193"><a href="javascript:sym(6193)">Hartford</a></td><td>Hartford</td><td>United States of America</td><td class="num">1,190,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">398</td><td id="i6294"><a href="javascript:sym(6294)">New Orleans</a></td><td>New Orleans</td><td>United States of America</td><td class="num">1,190,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">402</td><td id="i7318"><a href="javascript:sym(7318)">Managua</a></td><td>Managua</td><td>Nicaragua</td><td class="num">1,170,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">402</td><td id="i3137"><a href="javascript:sym(3137)">Solāpur</a></td><td>Sholapur</td><td>India</td><td class="num">1,170,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">404</td><td id="i3108"><a href="javascript:sym(3108)">Rānchi</a></td><td>Ranchi</td><td>India</td><td class="num">1,160,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">404</td><td id="i8321"><a href="javascript:sym(8321)">Zürich</a></td><td>Zurich</td><td>Switzerland</td><td class="num">1,160,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">406</td><td id="i6456"><a href="javascript:sym(6456)">Cartagena</a></td><td>Cartagena</td><td>Colombia</td><td class="num">1,150,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">406</td><td id="i2047"><a href="javascript:sym(2047)">Cotonou</a></td><td>Cotonou</td><td>Benin</td><td class="num">1,150,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">408</td><td id="i7720"><a href="javascript:sym(7720)">Al-Madīnah</a></td><td>Medina</td><td>Saudi Arabia</td><td class="num">1,140,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">408</td><td id="i2766"><a href="javascript:sym(2766)">Edmonton</a></td><td>Edmonton</td><td>Canada</td><td class="num">1,140,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">408</td><td id="i6837"><a href="javascript:sym(6837)">Hamamatsu</a></td><td>Hamamatsu</td><td>Japan</td><td class="num">1,140,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">408</td><td id="i6929"><a href="javascript:sym(6929)">Naha</a></td><td>Naha</td><td>Japan</td><td class="num">1,140,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">408</td><td id="i3874"><a href="javascript:sym(3874)">Omsk</a></td><td>Omsk</td><td>Russia</td><td class="num">1,140,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">408</td><td id="i7713"><a href="javascript:sym(7713)">Ulsan</a></td><td>Ulsan</td><td>Korea (South)</td><td class="num">1,140,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">414</td><td id="i6083"><a href="javascript:sym(6083)">Birmingham</a></td><td>Birmingham</td><td>United States of America</td><td class="num">1,130,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">414</td><td id="i6841"><a href="javascript:sym(6841)">Himeji</a></td><td>Himeji</td><td>Japan</td><td class="num">1,130,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">414</td><td id="i514"><a href="javascript:sym(514)">Johor Bahru</a></td><td>Johor Bahru</td><td>Malaysia</td><td class="num">1,130,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">414</td><td id="i3819"><a href="javascript:sym(3819)">Kazan'</a></td><td>Kazan</td><td>Russia</td><td class="num">1,130,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">418</td><td id="i11724"><a href="javascript:sym(11724)">Ash-Shāriqah</a></td><td>Ash-Shariqah</td><td>United Arab Emirates</td><td class="num">1,120,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">418</td><td id="i2514"><a href="javascript:sym(2514)">Joinville</a></td><td>Joinville</td><td>Brazil</td><td class="num">1,120,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">418</td><td id="i3157"><a href="javascript:sym(3157)">Thiruvananthapuram</a></td><td>Trivandrum</td><td>India</td><td class="num">1,120,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">418</td><td id="i20561"><a href="javascript:sym(20561)">Yiwu</a></td><td>Yiwu</td><td>China</td><td class="num">1,120,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">422</td><td id="i1348"><a href="javascript:sym(1348)">Fès</a></td><td>Fes</td><td>Morocco</td><td class="num">1,110,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">422</td><td id="i6188"><a href="javascript:sym(6188)">Greenville</a></td><td>Greenville</td><td>United States of America</td><td class="num">1,110,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">422</td><td id="i2114"><a href="javascript:sym(2114)">Helsinki</a></td><td>Helsinki</td><td>Finland</td><td class="num">1,110,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">422</td><td id="i6899"><a href="javascript:sym(6899)">Kumamoto</a></td><td>Kumamoto</td><td>Japan</td><td class="num">1,110,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">422</td><td id="i5539"><a href="javascript:sym(5539)">Tai'an</a></td><td>Tai'an</td><td>China</td><td class="num">1,110,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">422</td><td id="i5592"><a href="javascript:sym(5592)">Yancheng</a></td><td>Yancheng</td><td>China</td><td class="num">1,110,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">422</td><td id="i5622"><a href="javascript:sym(5622)">Zhanjiang</a></td><td>Zhanjiang</td><td>China</td><td class="num">1,110,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">429</td><td id="i13452"><a href="javascript:sym(13452)">Maiduguri</a></td><td>Maiduguri</td><td>Nigeria</td><td class="num">1,100,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">429</td><td id="i7228"><a href="javascript:sym(7228)">Newcastle upon Tyne</a></td><td>Newcastle upon Tyne</td><td>Great Britain</td><td class="num">1,100,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">429</td><td id="i6585"><a href="javascript:sym(6585)">Valparaíso</a></td><td>Valparaíso</td><td>Chile</td><td class="num">1,100,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">432</td><td id="i1104"><a href="javascript:sym(1104)">Dublin</a></td><td>Dublin</td><td>Ireland</td><td class="num">1,090,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">432</td><td id="i2960"><a href="javascript:sym(2960)">Guwāhāti</a></td><td>Gauhati</td><td>India</td><td class="num">1,090,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">432</td><td id="i2994"><a href="javascript:sym(2994)">Jodhpur</a></td><td>Jodhpur</td><td>India</td><td class="num">1,090,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">432</td><td id="i3751"><a href="javascript:sym(3751)">Odėsa</a></td><td>Odessa</td><td>Ukraine</td><td class="num">1,090,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">432</td><td id="i8205"><a href="javascript:sym(8205)">Ulaanbaatar</a></td><td>Ulan Bator</td><td>Mongolia</td><td class="num">1,090,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">437</td><td id="i6450"><a href="javascript:sym(6450)">Bucaramanga</a></td><td>Bucaramanga</td><td>Colombia</td><td class="num">1,080,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">437</td><td id="i6171"><a href="javascript:sym(6171)">Fresno</a></td><td>Fresno</td><td>United States of America</td><td class="num">1,080,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">437</td><td id="i5429"><a href="javascript:sym(5429)">Jixi</a></td><td>Jixi</td><td>China</td><td class="num">1,080,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">437</td><td id="i2513"><a href="javascript:sym(2513)">João Pessoa</a></td><td>Joao Pessoa</td><td>Brazil</td><td class="num">1,080,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">437</td><td id="i1263"><a href="javascript:sym(1263)">Monrovia</a></td><td>Monrovia</td><td>Liberia</td><td class="num">1,080,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">442</td><td id="i1051"><a href="javascript:sym(1051)">Ahvāz</a></td><td>Ahvaz</td><td>Iran</td><td class="num">1,070,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">442</td><td id="i5306"><a href="javascript:sym(5306)">Baoding</a></td><td>Baoding</td><td>China</td><td class="num">1,070,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">442</td><td id="i1655"><a href="javascript:sym(1655)">Port Elizabeth</a></td><td>Port Elizabeth</td><td>South Africa</td><td class="num">1,070,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">442</td><td id="i3466"><a href="javascript:sym(3466)">San Luis Potosí</a></td><td>San Luis Potosí</td><td>Mexico</td><td class="num">1,070,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">446</td><td id="i2385"><a href="javascript:sym(2385)">Irbīl</a></td><td>Arbil</td><td>Iraq</td><td class="num">1,060,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">446</td><td id="i3881"><a href="javascript:sym(3881)">Perm'</a></td><td>Perm</td><td>Russia</td><td class="num">1,060,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">446</td><td id="i5489"><a href="javascript:sym(5489)">Pingdingshan</a></td><td>Pingdingshan</td><td>China</td><td class="num">1,060,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">446</td><td id="i3462"><a href="javascript:sym(3462)">Querétaro</a></td><td>Querétaro</td><td>Mexico</td><td class="num">1,060,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">446</td><td id="i3899"><a href="javascript:sym(3899)">Saratov</a></td><td>Saratov</td><td>Russia</td><td class="num">1,060,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">446</td><td id="i6408"><a href="javascript:sym(6408)">Tucson</a></td><td>Tucson</td><td>United States of America</td><td class="num">1,060,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">446</td><td id="i3923"><a href="javascript:sym(3923)">Ufa</a></td><td>Ufa</td><td>Russia</td><td class="num">1,060,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">453</td><td id="i3706"><a href="javascript:sym(3706)">Ḥimṣ</a></td><td>Homs</td><td>Syria</td><td class="num">1,050,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">453</td><td id="i29906"><a href="javascript:sym(29906)">Nürnberg</a></td><td>Nuremberg</td><td>Germany</td><td class="num">1,050,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">453</td><td id="i1085"><a href="javascript:sym(1085)">Qom</a></td><td>Qom</td><td>Iran</td><td class="num">1,050,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">453</td><td id="i3148"><a href="javascript:sym(3148)">Tiruchirāppalli</a></td><td>Tiruchirappalli</td><td>India</td><td class="num">1,050,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">453</td><td id="i5582"><a href="javascript:sym(5582)">Xining</a></td><td>Xining</td><td>China</td><td class="num">1,050,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">453</td><td id="i5619"><a href="javascript:sym(5619)">Zaozhuang</a></td><td>Zaozhuang</td><td>China</td><td class="num">1,050,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">459</td><td id="i2961"><a href="javascript:sym(2961)">Gwalior</a></td><td>Gwalior</td><td>India</td><td class="num">1,040,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">459</td><td id="i5424"><a href="javascript:sym(5424)">Jining</a></td><td>Jining</td><td>China</td><td class="num">1,040,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">459</td><td id="i3831"><a href="javascript:sym(3831)">Krasnojarsk</a></td><td>Krasnoyarsk</td><td>Russia</td><td class="num">1,040,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">459</td><td id="i6348"><a href="javascript:sym(6348)">Rochester</a></td><td>Rochester</td><td>United States of America</td><td class="num">1,040,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">459</td><td id="i5599"><a href="javascript:sym(5599)">Yichang</a></td><td>Yichang</td><td>China</td><td class="num">1,040,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">464</td><td id="i7955"><a href="javascript:sym(7955)">Mandalay</a></td><td>Mandalay</td><td>Myanmar</td><td class="num">1,030,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">464</td><td id="i13489"><a href="javascript:sym(13489)">Zaria</a></td><td>Zaria</td><td>Nigeria</td><td class="num">1,030,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">464</td><td id="i5620"><a href="javascript:sym(5620)">Zhangjiakou</a></td><td>Zhangjiakou</td><td>China</td><td class="num">1,030,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">467</td><td id="i747"><a href="javascript:sym(747)">Cochabamba</a></td><td>Cochabamba</td><td>Bolivia</td><td class="num">1,020,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">467</td><td id="i2493"><a href="javascript:sym(2493)">Florianópolis</a></td><td>Florianopolis</td><td>Brazil</td><td class="num">1,020,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">467</td><td id="i512"><a href="javascript:sym(512)">George Town</a></td><td>George Town</td><td>Malaysia</td><td class="num">1,020,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">467</td><td id="i8094"><a href="javascript:sym(8094)">Ndjamena</a></td><td>Ndjamena</td><td>Chad</td><td class="num">1,020,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">467</td><td id="i5611"><a href="javascript:sym(5611)">Yueyang</a></td><td>Yueyang</td><td>China</td><td class="num">1,020,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">472</td><td id="i5373"><a href="javascript:sym(5373)">Guilin</a></td><td>Guilin</td><td>China</td><td class="num">1,010,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">472</td><td id="i2906"><a href="javascript:sym(2906)">Kozhikode</a></td><td>Calicut</td><td>India</td><td class="num">1,010,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">472</td><td id="i5520"><a href="javascript:sym(5520)">Shaoxing</a></td><td>Shaoxing</td><td>China</td><td class="num">1,010,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">472</td><td id="i5633"><a href="javascript:sym(5633)">Zhuzhou</a></td><td>Zhuzhou</td><td>China</td><td class="num">1,010,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">476</td><td id="i2376"><a href="javascript:sym(2376)">Al-Baṣrah</a></td><td>Basra</td><td>Iraq</td><td class="num">1,000,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">476</td><td id="i5400"><a href="javascript:sym(5400)">Huai'an</a></td><td>Huai'an</td><td>China</td><td class="num">1,000,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">476</td><td id="i3449"><a href="javascript:sym(3449)">Mérida</a></td><td>Mérida</td><td>Mexico</td><td class="num">1,000,000</td><td>&nbsp;</td></tr>
+<tr><td class="num">476</td><td id="i322"><a href="javascript:sym(322)">Tegucigalpa</a></td><td>Tegucigalpa</td><td>Honduras</td><td class="num">1,000,000</td><td>&nbsp;</td></tr>
+</table>
+<p class="def"><strong>Definition:</strong> Agglomerations include a central city and neighboring communities linked to it (e.g.) by continuous built-up areas or commuters. Some agglomerations have more than one central city (e.g. "The Ruhr").</p>
+<p class="def"><strong>Data:</strong> The presented population figures are projected according to the previous development to the given reference date. Official censuses and estimations are mostly the basis of this computation; the definitions of agglomerations are sometimes based on unofficial or own estimates. The figures of such a statistic are all of varying, and some of suspect accuracy. There are several reasons: the varying relevance and accuracy of sources, the poor comparability of definitions of agglomerations, errors in the projection and so on.</p>
+<p class="def"><strong>Usage:</strong> It is allowed to use the above population figures if the following reference/link is added: <em>Thomas Brinkhoff: The Principal Agglomerations of the World, http://www.citypopulation.de</em></p>
+<p class="copyright"><span class="date">2010-01-23</span><span class="addr"><a href="../index.html">WWW.CITYPOPULATION.DE</a></span><span class="name">&copy; TH. BRINKHOFF</span></p>
+</div>
+<div id="logo"><a href="../index.html"><img src="../images/logo158.png" alt="City Population" /></a></div>
+<div id="menu">
+<ul>
+<li><a href="../index.html" target="_top">HOME</a></li>
+<li><a href="../new.html" target="_top">NEW</a></li>
+<li><a href="../explanation.html" target="_top">HELP</a></li>
+<li><a href="../references.html" target="_top">REFs</a></li>
+<li><a href="../search.html" target="_top">SEARCH</a></li>
+<li><a href="../contact.html" target="_top">CONTACT</a></li>
+</ul>
+</div>
+<div id="map">
+<script type="text/javascript">load_diagram('The Principal Agglomerations of the World','E')</script>
+<script type="text/javascript">start_mapviewer('Agglomerations','The Principal Agglomerations of the World', 1 , 32 , 32 , 32 , 600 , 360, 'E')</script>
+</div>
+<div id="adv"><script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script></div>
+<script type="text/javascript">function showLegend(lang) {showLegendWindow('Agglomerations',lang)}</script>
+</body>
+</html>
