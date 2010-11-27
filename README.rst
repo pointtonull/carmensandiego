@@ -1,4 +1,4 @@
-.. figure:: http://github.com/pointtonull/carmensandiego/raw/master/sombrero_carmen.png
+.. image:: http://github.com/pointtonull/carmensandiego/raw/master/sombrero_carmen.png
    :align: right
 
 Description
