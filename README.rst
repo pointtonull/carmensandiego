@@ -1,4 +1,6 @@
 .. image:: https://github.com/pointtonull/carmensandiego/raw/master/sombrero_carmen.png
+   :align: right
+
 
 Description
 ===========
